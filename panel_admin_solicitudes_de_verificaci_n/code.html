@@ -1,0 +1,452 @@
+<!DOCTYPE html><html lang="es" style="min-height: 100%; height: auto; overflow-y: auto; opacity: 0;" data-stitch-orig-opacity="1"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#003554", "outline": "#747682", "on-primary-container": "#7b96ea", "on-error-container": "#93000a", "on-background": "#131b2e", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "on-tertiary-fixed-variant": "#004b73", "on-secondary-container": "#663500", "surface": "#faf8ff", "background": "#faf8ff", "on-surface": "#131b2e", "surface-tint": "#3d5aa9", "surface-container-high": "#e2e7ff", "secondary": "#904d00", "on-tertiary-container": "#3fa1e6", "surface-container": "#eaedff", "on-tertiary-fixed": "#001d31", "secondary-fixed": "#ffdcc3", "primary": "#00184d", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "on-secondary": "#ffffff", "surface-variant": "#dae2fd", "error": "#ba1a1a", "inverse-primary": "#b4c5ff", "primary-fixed-dim": "#b4c5ff", "on-surface-variant": "#444651", "surface-bright": "#faf8ff", "on-error": "#ffffff", "surface-dim": "#d2d9f4", "tertiary-fixed": "#cce5ff", "on-secondary-fixed": "#2f1500", "primary-container": "#002b7a", "on-secondary-fixed-variant": "#6e3900", "inverse-surface": "#283044", "secondary-container": "#fe932c", "secondary-fixed-dim": "#ffb77d", "on-primary-fixed": "#00174b", "surface-container-highest": "#dae2fd", "inverse-on-surface": "#eef0ff", "outline-variant": "#c4c6d3", "on-primary-fixed-variant": "#224290", "primary-fixed": "#dbe1ff", "tertiary-fixed-dim": "#93ccff", "surface-container-low": "#f2f3ff", "tertiary": "#001f34" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "margin": "2rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "gutter": "1.5rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-md": ["22px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-sm": ["18px", {"lineHeight": "26px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700"}], "display-hero": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "800"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "display-hero-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen" style="min-height: 100%; height: auto; overflow-y: auto;"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-sm"><div class="w-11 h-11 rounded-lg bg-primary-container flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[24px]">account_balance</span></div><div class="flex flex-col"><div class="flex items-center gap-space-xs"><span class="font-label-lg text-label-lg text-primary tracking-tight font-bold">Comunidad UChile</span><span class="font-label-caps text-label-caps text-on-surface-variant font-bold">| Admin</span></div><div class="flex items-center gap-1.5 mt-0.5"><span class="inline-flex items-center gap-1 px-1.5 py-0.5 rounded bg-primary text-on-primary font-label-caps text-label-caps font-bold tracking-wider"><span class="material-symbols-outlined text-[12px] text-secondary-container">verified_user</span>PANEL ADMIN / NIVEL ROOT</span></div></div></div><div class="flex items-center gap-space-xs"><button aria-label="Notificaciones de seguridad" class="w-11 h-11 flex items-center justify-center text-on-surface-variant rounded-full hover:bg-surface-container"><span class="material-symbols-outlined text-[20px]">security</span></button><div class="relative flex items-center justify-center"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div><span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 rounded-full bg-primary-container text-on-primary flex items-center justify-center"><span class="material-symbols-outlined text-[9px]">shield</span></span></div></div></div></header><main class="flex flex-col relative w-full px-gutter-mobile pt-20 pb-24 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- Encabezado Institucional de la Vista -->
+<section class="flex flex-col gap-space-xs mb-space-md">
+<div class="inline-flex items-center gap-space-xs self-start px-space-sm py-1 rounded-full bg-surface-container-high text-primary">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-caps text-label-caps uppercase tracking-wider text-primary font-bold">Sesión VAE · Nivel Administrador</span>
+</div>
+<div class="flex flex-col mt-0.5">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Gestión de Organizaciones</h1>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">Revisión y validación institucional de colectivos y centros de estudiantes</p>
+</div>
+</section>
+<!-- Tarjetas de Resumen Métrico (KPIs) -->
+<section class="grid grid-cols-3 gap-space-xs mb-space-md">
+<!-- Pendientes -->
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-bold">Espera</span>
+<span class="w-6 h-6 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[14px]">schedule</span>
+</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary font-extrabold">8</span>
+</div>
+<div class="inline-flex items-center gap-1 mt-1 text-secondary font-label-caps text-label-caps font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container shrink-0"></span>
+<span class="truncate">Prioritaria</span>
+</div>
+</div>
+<!-- Aprobadas -->
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-bold">Validadas</span>
+<span class="w-6 h-6 rounded-full bg-surface-container-highest flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-primary font-extrabold">42</span>
+</div>
+<div class="inline-flex items-center gap-1 mt-1 text-on-tertiary-fixed-variant font-label-caps text-label-caps font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container shrink-0"></span>
+<span class="truncate">Vigentes</span>
+</div>
+</div>
+<!-- Rechazadas -->
+<div class="flex flex-col p-space-sm rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center justify-between mb-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-bold">Bajas</span>
+<span class="w-6 h-6 rounded-full bg-error-container flex items-center justify-center text-on-error-container">
+<span class="material-symbols-outlined text-[14px]">block</span>
+</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-headline-md text-error font-extrabold">6</span>
+</div>
+<div class="inline-flex items-center gap-1 mt-1 text-error font-label-caps text-label-caps font-bold">
+<span class="w-1.5 h-1.5 rounded-full bg-error shrink-0"></span>
+<span class="truncate">Desestimadas</span>
+</div>
+</div>
+</section>
+<!-- Filtros y Búsqueda -->
+<section class="flex flex-col gap-space-sm mb-space-md">
+<!-- Barra de Búsqueda -->
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-3 text-outline text-[20px] pointer-events-none">search</span>
+<input class="w-full h-11 pl-10 pr-10 rounded-xl bg-surface-container-lowest font-body-md text-body-md text-on-surface placeholder:text-outline shadow-sm focus:outline-none focus:bg-surface-container-low transition-colors" id="search-input" placeholder="Buscar por nombre, sigla o campus..." type="search">
+<button aria-label="Limpiar búsqueda" class="absolute right-2.5 w-7 h-7 flex items-center justify-center rounded-full text-outline hover:text-on-surface" id="clear-search-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<!-- Pestañas de Estado Segmentadas (Scroll horizontal ergonómico) -->
+<div class="flex items-center gap-space-xs overflow-x-auto pb-1" id="filter-tabs">
+<button class="tab-btn shrink-0 px-space-md py-2 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container" data-filter="todas">
+        Todas (56)
+      </button>
+<button class="tab-btn shrink-0 inline-flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md font-bold transition-all bg-primary-container text-on-primary shadow-sm" data-filter="pendientes">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+        Pendientes (8)
+      </button>
+<button class="tab-btn shrink-0 px-space-md py-2 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container" data-filter="aprobadas">
+        Aprobadas (42)
+      </button>
+<button class="tab-btn shrink-0 px-space-md py-2 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container" data-filter="rechazadas">
+        Rechazadas (6)
+      </button>
+</div>
+<!-- Selector de Campus / Facultad -->
+<div class="flex items-center gap-space-xs">
+<div class="relative w-full">
+<select class="w-full h-10 pl-3 pr-8 rounded-lg bg-surface-container font-label-md text-label-md text-primary font-semibold shadow-sm appearance-none focus:outline-none" id="campus-select">
+<option value="all">Todas las facultades y campus</option>
+<option value="beauchef">FCFM · Campus Beauchef</option>
+<option value="jgm">Cs. Sociales / JGM</option>
+<option value="fen">FEN · Diagonal Paraguay</option>
+<option value="medicina">Campus Norte · Medicina / Químicas</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 top-2.5 text-outline text-[18px] pointer-events-none">expand_more</span>
+</div>
+<button aria-label="Filtros avanzados" class="h-10 px-3 rounded-lg bg-surface-container text-on-surface-variant flex items-center justify-center shrink-0 shadow-sm" title="Más filtros">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</button>
+</div>
+</section>
+<!-- Lista de Solicitudes -->
+<section class="flex flex-col gap-space-sm mb-space-lg" id="requests-container">
+<!-- Tarjeta 1: Pendiente - Urgente (Beauchef) -->
+<article class="request-card flex flex-col p-space-md rounded-2xl bg-surface-container-lowest shadow-sm relative overflow-hidden" data-campus="beauchef" data-status="pendientes" style="display: flex;">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-secondary-container"></div>
+<div class="flex items-start justify-between gap-space-sm pl-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps font-bold">
+            CROB-FCFM
+          </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed-dim text-on-secondary-fixed font-label-caps text-label-caps font-bold inline-flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+            Pendiente de Revisión
+          </span>
+</div>
+<span class="font-label-caps text-label-caps text-secondary font-bold">Prioridad Alta</span>
+</div>
+<div class="flex flex-col mt-2 pl-1">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">Club de Robótica y Automatización Beauchef</h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">category</span>
+            Colectivo / Laboratorio Estudiantil
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            FCFM - Campus Beauchef
+          </span>
+</div>
+</div>
+<!-- Metadatos de Responsable y Tiempo -->
+<div class="flex flex-col gap-1 my-space-sm p-space-sm rounded-xl bg-surface-container-low pl-3">
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">badge</span>
+            Responsable:
+          </span>
+<span class="font-semibold text-primary truncate max-w-[200px]">Martín Paredes (@ug.uchile.cl)</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">schedule</span>
+            Ingreso:
+          </span>
+<span class="text-secondary font-semibold">Hace 4 horas (18 Abr, 10:15)</span>
+</div>
+</div>
+<!-- Acciones de Administración -->
+<div class="flex items-center gap-space-xs mt-1 pl-1">
+<button class="flex-1 h-11 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1.5 shadow-sm active:scale-[0.98] transition-transform" onclick="alert('Abriendo expediente CROB-FCFM')">
+<span class="">Revisar Solicitud</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="h-11 px-space-md rounded-xl bg-surface-container text-primary font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1 hover:bg-surface-container-high active:scale-[0.98] transition-colors" title="Previsualizar antecedentes">
+<span class="material-symbols-outlined text-[18px]">visibility</span>
+<span class="hidden sm:inline">Previsualizar</span>
+</button>
+</div>
+</article>
+<!-- Tarjeta 2: Pendiente (Cs. Químicas y Farmacéuticas) -->
+<article class="request-card flex flex-col p-space-md rounded-2xl bg-surface-container-lowest shadow-sm relative overflow-hidden" data-campus="medicina" data-status="pendientes" style="display: flex;">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-secondary-fixed-dim"></div>
+<div class="flex items-start justify-between gap-space-sm pl-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary font-label-caps text-label-caps font-bold">
+            SBGA
+          </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps font-bold inline-flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            Pendiente de Revisión
+          </span>
+</div>
+<span class="font-label-caps text-label-caps text-outline">Normal</span>
+</div>
+<div class="flex flex-col mt-2 pl-1">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">Semillero Bioquímica y Genómica Aplicada</h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">science</span>
+            Semillero Académico
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            Cs. Químicas y Farmacéuticas
+          </span>
+</div>
+</div>
+<div class="flex flex-col gap-1 my-space-sm p-space-sm rounded-xl bg-surface-container-low pl-3">
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">badge</span>
+            Responsable:
+          </span>
+<span class="font-semibold text-primary truncate max-w-[200px]">Camila Sepúlveda (@uchile.cl)</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">schedule</span>
+            Ingreso:
+          </span>
+<span class="font-semibold text-on-surface-variant">Ayer (17 Abr, 16:40)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-1 pl-1">
+<button class="flex-1 h-11 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1.5 shadow-sm active:scale-[0.98] transition-transform">
+<span class="">Revisar Solicitud</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Tarjeta 3: Pendiente (JGM - CEAn) -->
+<article class="request-card flex flex-col p-space-md rounded-2xl bg-surface-container-lowest shadow-sm relative overflow-hidden" data-campus="jgm" data-status="pendientes" style="display: flex;">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-secondary-fixed-dim"></div>
+<div class="flex items-start justify-between gap-space-sm pl-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-primary font-label-caps text-label-caps font-bold">
+            CEAn
+          </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-caps text-label-caps font-bold inline-flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+            Pendiente de Revisión
+          </span>
+</div>
+<span class="font-label-caps text-label-caps text-outline">Normal</span>
+</div>
+<div class="flex flex-col mt-2 pl-1">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">Centro de Estudiantes de Antropología (CEAn)</h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">groups</span>
+            Centro de Estudiantes (CEE)
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            Cs. Sociales - Campus JGM
+          </span>
+</div>
+</div>
+<div class="flex flex-col gap-1 my-space-sm p-space-sm rounded-xl bg-surface-container-low pl-3">
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">badge</span>
+            Responsable:
+          </span>
+<span class="font-semibold text-primary truncate max-w-[200px]">Ignacio Valdés (@ug.uchile.cl)</span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">schedule</span>
+            Ingreso:
+          </span>
+<span class="font-semibold text-on-surface-variant">Hace 2 días (16 Abr, 11:20)</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs mt-1 pl-1">
+<button class="flex-1 h-11 px-space-md rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1.5 shadow-sm active:scale-[0.98] transition-transform">
+<span class="">Revisar Solicitud</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</article>
+<!-- Tarjeta 4: Aprobada Recientemente -->
+<article class="request-card flex flex-col p-space-md rounded-2xl bg-surface-container-lowest shadow-sm relative overflow-hidden" data-campus="beauchef" data-status="aprobadas" style="display: none;">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-primary-container"></div>
+<div class="flex items-start justify-between gap-space-sm pl-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-primary-container font-label-caps text-label-caps font-bold inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+            Aprobada Institucionalmente
+          </span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">Dictaminado</span>
+</div>
+<div class="flex flex-col mt-2 pl-1">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">Rama de Futsal Beauchef</h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-outline">sports_soccer</span>
+            Rama Deportiva Oficial
+          </span>
+<span class="">•</span>
+<span class="inline-flex items-center gap-1 text-primary font-semibold">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+            FCFM Beauchef
+          </span>
+</div>
+</div>
+<div class="flex items-center gap-2 my-space-sm p-space-sm rounded-xl bg-surface-container-low pl-3">
+<span class="material-symbols-outlined text-primary-container text-[18px]">verified_user</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">
+          Aprobada el <strong class="text-primary font-semibold">15 Abr</strong> por <span class="font-mono text-body-sm">admin_gabinete</span>
+</span>
+</div>
+<div class="flex items-center gap-space-xs mt-1 pl-1">
+<button class="flex-1 h-10 px-space-md rounded-xl bg-surface-container text-primary font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[18px]">inventory_2</span>
+<span class="">Ver Expediente Oficial</span>
+</button>
+</div>
+</article>
+<!-- Tarjeta 5: Rechazada con motivo visible -->
+<article class="request-card flex flex-col p-space-md rounded-2xl bg-surface-container-lowest shadow-sm relative overflow-hidden" data-campus="all" data-status="rechazadas" style="display: none;">
+<div class="absolute top-0 left-0 bottom-0 w-1.5 bg-error"></div>
+<div class="flex items-start justify-between gap-space-sm pl-1">
+<div class="flex items-center gap-space-xs">
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps font-bold inline-flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">cancel</span>
+            Rechazada / Inadmisible
+          </span>
+</div>
+<span class="font-label-caps text-label-caps text-error font-bold">14 Abr</span>
+</div>
+<div class="flex flex-col mt-2 pl-1">
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold leading-snug">Fiestas &amp; Carretes Universales Santiago</h2>
+<div class="flex flex-wrap items-center gap-x-2 gap-y-1 mt-1 text-on-surface-variant font-body-sm text-body-sm">
+<span class="inline-flex items-center gap-1 text-error font-semibold">
+<span class="material-symbols-outlined text-[16px]">domain_disabled</span>
+            Iniciativa Externa / No Universitaria
+          </span>
+</div>
+</div>
+<!-- Motivo de rechazo detallado -->
+<div class="flex flex-col gap-1 my-space-sm p-space-sm rounded-xl bg-error-container/40 pl-3">
+<span class="font-label-caps text-label-caps text-error font-bold uppercase tracking-wider">Causal de Inadmisibilidad</span>
+<p class="font-body-sm text-body-sm text-on-surface font-medium leading-relaxed">
+          Entidad externa con fines comerciales sin patrocinio estudiantil ni correo institucional válido (@uchile.cl).
+        </p>
+</div>
+<div class="flex items-center gap-space-xs mt-1 pl-1">
+<button class="flex-1 h-10 px-space-md rounded-xl bg-surface-container text-on-surface-variant font-label-md text-label-md font-bold inline-flex items-center justify-center gap-1.5 hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[18px]">history_edu</span>
+<span class="">Ver Motivo y Registro Completo</span>
+</button>
+</div>
+</article>
+</section>
+<!-- Historial Reciente de Auditoría al Pie -->
+<aside class="flex flex-col p-space-md rounded-2xl bg-surface-container shadow-sm mt-auto mb-space-sm">
+<div class="flex items-center justify-between mb-2">
+<div class="inline-flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px]">policy</span>
+<span class="font-label-lg text-label-lg font-bold">Auditoría en Tiempo Real</span>
+</div>
+<span class="font-label-caps text-label-caps px-2 py-0.5 rounded bg-surface-container-highest text-primary font-semibold">Log #8492</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+      Última acción de auditoría: 
+      <strong class="text-primary font-bold">Aprobación de Rama de Futsal Beauchef</strong> 
+      hace 3 días por <span class="font-mono text-primary font-semibold">J. Silva (Gabinete Central)</span>.
+    </p>
+<div class="flex items-center justify-between pt-3 mt-2 border-t-0">
+<a class="inline-flex items-center gap-1 text-primary-container font-label-md text-label-md font-bold hover:underline" href="#">
+<span class="">Consultar registro de firmas</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+<span class="flex items-center gap-1 text-outline font-label-caps text-label-caps">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+        Sincronizado
+      </span>
+</div>
+</aside>
+</div>
+<script>
+  (function() {
+    const tabs = document.querySelectorAll('.tab-btn');
+    const cards = document.querySelectorAll('.request-card');
+    const searchInput = document.getElementById('search-input');
+    const clearBtn = document.getElementById('clear-search-btn');
+    const campusSelect = document.getElementById('campus-select');
+
+    let currentFilter = 'pendientes';
+    let currentCampus = 'all';
+    let searchQuery = '';
+
+    function filterCards() {
+      cards.forEach(card => {
+        const cardStatus = card.dataset.status;
+        const cardCampus = card.dataset.campus;
+        const textContent = card.innerText.toLowerCase();
+
+        const matchesStatus = (currentFilter === 'todas') || (cardStatus === currentFilter);
+        const matchesCampus = (currentCampus === 'all') || (cardCampus === currentCampus) || (cardCampus === 'all');
+        const matchesSearch = !searchQuery || textContent.includes(searchQuery);
+
+        if (matchesStatus && matchesCampus && matchesSearch) {
+          card.style.display = 'flex';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        tabs.forEach(t => {
+          t.className = 'tab-btn shrink-0 px-space-md py-2 rounded-full font-label-md text-label-md font-semibold transition-all bg-surface-container-lowest text-on-surface-variant shadow-sm hover:bg-surface-container';
+        });
+        tab.className = 'tab-btn shrink-0 inline-flex items-center gap-1.5 px-space-md py-2 rounded-full font-label-md text-label-md font-bold transition-all bg-primary-container text-on-primary shadow-sm';
+        
+        currentFilter = tab.dataset.filter;
+        filterCards();
+      });
+    });
+
+    if (campusSelect) {
+      campusSelect.addEventListener('change', (e) => {
+        currentCampus = e.target.value;
+        filterCards();
+      });
+    }
+
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        searchQuery = e.target.value.toLowerCase().trim();
+        filterCards();
+      });
+    }
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        if (searchInput) {
+          searchInput.value = '';
+          searchQuery = '';
+          filterCards();
+        }
+      });
+    }
+
+    // Ejecutar filtro inicial
+    filterCards();
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-2px_12px_rgba(0,0,0,0.04)]" data-active-classes="text-primary-container font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-8 after:h-0.5 after:bg-primary-container after:rounded-full"><div class="flex justify-around items-center h-16 px-space-sm"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] min-h-[44px] px-space-xs py-1 transition-colors text-primary-container font-semibold relative after:content-[''] after:absolute after:bottom-1 after:w-8 after:h-0.5 after:bg-primary-container after:rounded-full" data-path="solicitudes" href="#"><span class="material-symbols-outlined text-[22px]">how_to_reg</span><span class="font-label-caps text-label-caps">Solicitudes</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] min-h-[44px] px-space-xs py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="importados" href="#"><span class="material-symbols-outlined text-[22px]">move_to_inbox</span><span class="font-label-caps text-label-caps">Importados</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] min-h-[44px] px-space-xs py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="organizaciones" href="#"><span class="material-symbols-outlined text-[22px]">corporate_fare</span><span class="font-label-caps text-label-caps">Organizaciones</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[64px] min-h-[44px] px-space-xs py-1 text-on-surface-variant hover:text-primary transition-colors" data-path="auditoria-logs" href="#"><span class="material-symbols-outlined text-[22px]">policy</span><span class="font-label-caps text-label-caps">Auditoría</span></a></div></nav>
+
+
+
+<script src="../_proto/router.js"></script>
+</body></html>

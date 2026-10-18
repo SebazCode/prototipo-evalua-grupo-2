@@ -1,0 +1,346 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-bright": "#faf8ff", "primary-fixed": "#dbe1ff", "tertiary-container": "#003554", "outline-variant": "#c4c6d3", "background": "#faf8ff", "secondary-fixed": "#ffdcc3", "on-surface": "#131b2e", "on-tertiary-fixed-variant": "#004b73", "surface-container-high": "#e2e7ff", "on-secondary-container": "#663500", "on-primary-fixed-variant": "#224290", "surface-tint": "#3d5aa9", "surface-container": "#eaedff", "surface-dim": "#d2d9f4", "tertiary-fixed-dim": "#93ccff", "error": "#ba1a1a", "on-error": "#ffffff", "inverse-on-surface": "#eef0ff", "on-primary-fixed": "#00174b", "tertiary-fixed": "#cce5ff", "on-primary-container": "#7b96ea", "on-tertiary-container": "#3fa1e6", "primary-fixed-dim": "#b4c5ff", "secondary": "#904d00", "secondary-fixed-dim": "#ffb77d", "on-secondary": "#ffffff", "inverse-surface": "#283044", "surface-container-highest": "#dae2fd", "outline": "#747682", "surface": "#faf8ff", "secondary-container": "#fe932c", "on-primary": "#ffffff", "on-surface-variant": "#444651", "primary-container": "#002b7a", "inverse-primary": "#b4c5ff", "error-container": "#ffdad6", "on-background": "#131b2e", "primary": "#00184d", "on-secondary-fixed": "#2f1500", "on-secondary-fixed-variant": "#6e3900", "surface-container-lowest": "#ffffff", "tertiary": "#001f34", "surface-container-low": "#f2f3ff", "surface-variant": "#dae2fd", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#001d31", "on-error-container": "#93000a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-md": "1rem", "margin": "2rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-xl": "2.5rem", "gutter": "1.5rem" }, "fontFamily": { "display-hero-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "display-hero-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "800" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Volver" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container active:scale-95 transition-all" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[20px]">account_balance</span></div><div class="flex flex-col"><span class="font-label-caps text-label-caps text-secondary uppercase leading-none">Universidad de Chile</span><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">Comunidad UChile</span></div></div></div><div class="flex items-center gap-space-xs"><a class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container active:scale-95 transition-all" data-path="soporte-cuenta" href="#" title="Centro de Ayuda"><span class="material-symbols-outlined text-[22px]">help_outline</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full pb-safe">
+<!-- Interactive View Toggle Bar -->
+<div class="px-gutter-mobile pt-space-md">
+<div class="flex bg-surface-container p-1 rounded-xl shadow-sm">
+<button class="flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 bg-surface-container-lowest text-primary shadow-sm flex items-center justify-center gap-1.5" id="btn-tab-form" onclick="switchTab('form')">
+<span class="material-symbols-outlined text-[18px]">how_to_reg</span>
+<span class="">Nueva Solicitud</span>
+</button>
+<button class="flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 text-on-surface-variant flex items-center justify-center gap-1.5" id="btn-tab-status" onclick="switchTab('status')">
+<span class="material-symbols-outlined text-[18px]">pending_actions</span>
+<span class="flex items-center gap-1">
+          Seguimiento
+          <span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+</span>
+</button>
+</div>
+</div>
+<!-- SECTION 1: CABECERA TEMÁTICA -->
+<section class="px-gutter-mobile pt-space-lg pb-space-sm flex flex-col items-center text-center">
+<div class="relative mb-space-sm">
+<div class="w-16 h-16 rounded-2xl bg-primary-container text-surface-container-lowest flex items-center justify-center shadow-md">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">verified_user</span>
+</div>
+<div class="absolute -bottom-1 -right-1 w-6 h-6 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[14px]">school</span>
+</div>
+</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps mb-2">
+<span class="material-symbols-outlined text-[13px]">gavel</span>
+<span class="">PROTOCOLO INSTITUCIONAL 2025</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight mb-1">
+      Solicitud de Organización
+    </h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm px-2">
+      Espacio para centros de estudiantes, colectivos, ramas deportivas, semilleros y laboratorios de la Universidad de Chile.
+    </p>
+</section>
+<!-- SECTION 2: AVISO CRUCIAL DE VERIFICACIÓN PREVIA (SIEMPRE VISIBLE) -->
+<section class="px-gutter-mobile py-space-sm">
+<div class="bg-secondary-fixed/50 rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 w-24 h-24 bg-secondary-container/15 rounded-full blur-xl pointer-events-none"></div>
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded-xl bg-secondary text-on-secondary flex-shrink-0 flex items-center justify-center shadow-sm">
+<span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">shield_with_heart</span>
+</div>
+<div class="flex flex-col flex-1">
+<div class="flex items-center gap-2 mb-0.5">
+<span class="font-headline-sm text-headline-sm text-on-secondary-fixed leading-tight">
+              Aviso Importante
+            </span>
+<span class="px-2 py-0.5 rounded-full bg-secondary text-on-secondary font-label-caps text-[9px] tracking-wider uppercase font-bold">
+              Mandatorio
+            </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-secondary-fixed-variant leading-relaxed">
+            El registro <strong class="text-secondary font-bold">NO otorga permisos de publicación inmediatos</strong>. Todas las solicitudes son evaluadas rigurosamente por el equipo administrador para corroborar el vínculo institucional activo antes de habilitar la cartelera comunitaria.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- CONTAINER FORMULARIO (TAB 1) -->
+<div class="flex flex-col w-full" id="tab-content-form">
+<form class="px-gutter-mobile pt-space-md pb-20 flex flex-col gap-space-md" id="orgVerificationForm" onsubmit="handleFormSubmit(event)">
+<!-- Paso 1: Identificación de la Organización -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-3.5">
+<div class="flex items-center gap-2 pb-1 border-b-0">
+<span class="w-6 h-6 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps flex items-center justify-center font-bold">1</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Datos del Colectivo</h2>
+</div>
+<!-- Campo 1: Nombre de la organización -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="orgName">
+<span class="">Nombre de la Organización</span>
+<span class="font-body-sm text-body-sm text-secondary font-bold">*Requerido</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">group</span>
+<input class="w-full h-11 pl-11 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="orgName" name="orgName" placeholder="Ej: Club de Robótica Beauchef, CEEI FEN" required="" type="text">
+</div>
+</div>
+<!-- Campo 2: Tipo de Organización -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface" for="orgType">Tipo de Organización</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">category</span>
+<select class="w-full h-11 pl-11 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="orgType" name="orgType" required="">
+<option disabled="" selected="" value="">Selecciona una categoría...</option>
+<option value="centro_alumnos">Centro de Estudiantes (CEE / CEEI)</option>
+<option value="rama_deportiva">Rama Deportiva Oficial / Autogestionada</option>
+<option value="colectivo_cultural">Colectivo Cultural y Artístico</option>
+<option value="investigacion">Grupo de Investigación / Semillero / Lab</option>
+<option value="unidad_academica">Unidad Académica o de Extensión</option>
+<option value="ong_estudiantil">ONG / Voluntariado Estudiantil</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+<!-- Campo 3: Facultad o Campus -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface" for="campus">Facultad / Campus Sede</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">location_on</span>
+<select class="w-full h-11 pl-11 pr-10 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="campus" name="campus" required="">
+<option disabled="" selected="" value="">Selecciona tu campus principal...</option>
+<option value="beauchef">FCFM - Campus Beauchef</option>
+<option value="jgm">Campus Juan Gómez Millas (JGM)</option>
+<option value="fen">FEN - Diagonal Paraguay</option>
+<option value="medicina">Campus Norte (Medicina / Odontología / Químicas)</option>
+<option value="sur">Campus Sur (Antumapu)</option>
+<option value="casa_central">Casa Central / FAU / Derecho</option>
+<option value="intercampus">Iniciativa Intercampus / Red Global UChile</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 pointer-events-none text-on-surface-variant text-[20px]">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Paso 2: Representación y Contacto Oficial -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-3.5">
+<div class="flex items-center gap-2 pb-1">
+<span class="w-6 h-6 rounded-full bg-primary-fixed text-primary font-label-caps text-label-caps flex items-center justify-center font-bold">2</span>
+<h2 class="font-headline-sm text-headline-sm text-primary">Responsable y Validación</h2>
+</div>
+<!-- Campo 4: Correo oficial -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="officialEmail">
+<span class="">Correo Oficial de Contacto</span>
+<span class="font-label-caps text-label-caps text-primary">@uchile.cl</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">alternate_email</span>
+<input class="w-full h-11 pl-11 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="officialEmail" name="officialEmail" pattern=".+@.*uchile\.cl" placeholder="ejemplo@uchile.cl o cee@fen.uchile.cl" required="" type="email">
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant pl-1">
+            Imprescindible casilla institucional para recibir credenciales de verificación.
+          </span>
+</div>
+<!-- Campo 5: Responsable -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface" for="managerName">Nombre y Cargo del Responsable</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">badge</span>
+<input class="w-full h-11 pl-11 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="managerName" name="managerName" placeholder="Ej: Sofía Valenzuela, Presidenta CEE" required="" type="text">
+</div>
+</div>
+<!-- Campo 6: Propósito y Actividades con Contador -->
+<div class="flex flex-col gap-1.5">
+<div class="flex justify-between items-center">
+<label class="font-label-lg text-label-lg text-on-surface" for="orgBio">Propósito y Actividades Habituales</label>
+<span class="font-body-sm text-body-sm text-outline" id="charCount">0 / 280</span>
+</div>
+<textarea class="w-full p-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all resize-none" id="orgBio" maxlength="280" name="orgBio" oninput="document.getElementById('charCount').textContent = `${this.value.length} / 280`" placeholder="Describe las actividades, proyectos o talleres que organizan y el público objetivo al que convocan..." required="" rows="3"></textarea>
+</div>
+<!-- Campo 7: Respaldo o Enlace -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-lg text-label-lg text-on-surface" for="proofLink">Enlace de Respaldo o Documentación</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3.5 text-on-surface-variant text-[20px]">link</span>
+<input class="w-full h-11 pl-11 pr-3 rounded-lg bg-surface-container-low text-on-surface font-body-md text-body-md placeholder:text-outline focus:outline-none focus:bg-surface-container-lowest focus:ring-2 focus:ring-tertiary-container transition-all" id="proofLink" name="proofLink" placeholder="Instagram oficial, web o enlace a carta DAE" required="" type="url">
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm pl-1">
+<span class="material-symbols-outlined text-[16px] text-tertiary-container">verified</span>
+<span class="">Aceptamos perfiles activos de Instagram, Notion o Google Drive con decreto/carta.</span>
+</div>
+</div>
+</div>
+<!-- Resumen de Compromiso -->
+<div class="p-3 bg-surface-container rounded-xl flex items-start gap-2.5">
+<input class="mt-1 w-4 h-4 rounded text-primary accent-primary cursor-pointer" id="termsCheck" required="" type="checkbox">
+<label class="font-body-sm text-body-sm text-on-surface cursor-pointer select-none" for="termsCheck">
+          Declaro que represento formalmente a esta agrupación y entiendo que <strong class="text-primary font-bold">esta solicitud pasará a revisión manual</strong> antes de que pueda publicar eventos en la plataforma.
+        </label>
+</div>
+<!-- Botón de Envío -->
+<button class="w-full h-12 rounded-xl bg-primary-container text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md hover:bg-primary active:scale-[0.99] transition-all" type="submit">
+<span class="material-symbols-outlined text-[20px]">send</span>
+<span class="">Enviar Solicitud para Revisión</span>
+</button>
+</form>
+</div>
+<!-- CONTAINER ESTADO DE SEGUIMIENTO (TAB 2) -->
+<div class="hidden flex-col w-full px-gutter-mobile py-space-md" id="tab-content-status">
+<!-- Tarjeta Principal de Estado -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-lg shadow-md flex flex-col items-center text-center relative overflow-hidden">
+<!-- Glow superior institucional -->
+<div class="absolute -top-12 left-1/2 -translate-x-1/2 w-48 h-24 bg-surface-container-high rounded-full blur-2xl pointer-events-none"></div>
+<!-- Badge de Estado Destacado -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed mb-space-md shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary animate-spin" style="animation-duration: 3s;">hourglass_top</span>
+<span class="font-label-lg text-label-lg font-bold">Estado: En Revisión Administrativa</span>
+</div>
+<!-- Avatar de Organización Registrada -->
+<div class="w-16 h-16 rounded-2xl bg-surface-container flex items-center justify-center text-primary mb-3 shadow-inner">
+<span class="material-symbols-outlined text-[32px]">hub</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary mb-1">
+        Club de Robótica y Automatización
+      </h3>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-md text-label-md mb-space-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">school</span>
+          Beauchef
+        </span>
+<span class="">•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+          Enviada: 14 de Abril, 2025
+        </span>
+</div>
+<!-- Timeline Explicativo -->
+<div class="w-full bg-surface-container-low rounded-xl p-space-md text-left flex flex-col gap-3 mb-space-md">
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-label-caps text-label-caps flex-shrink-0">
+            ✓
+          </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface leading-tight">Solicitud recibida correctamente</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Archivos y correo institucional registrados.</p>
+</div>
+</div>
+<div class="w-0.5 h-3 bg-outline-variant ml-3 -my-2"></div>
+<div class="flex items-start gap-3">
+<div class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center flex-shrink-0 animate-pulse">
+<span class="material-symbols-outlined text-[14px]">search</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-secondary leading-tight font-bold">Verificación de credenciales en curso</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Comprobando patrocinio de Escuela de Ingeniería / VEX.
+            </p>
+</div>
+</div>
+<div class="w-0.5 h-3 bg-outline-variant ml-3 -my-2"></div>
+<div class="flex items-start gap-3 opacity-60">
+<div class="w-6 h-6 rounded-full bg-surface-dim text-on-surface-variant flex items-center justify-center font-label-caps text-label-caps flex-shrink-0">
+            3
+          </div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface leading-tight">Habilitación de Cartelera Abierta</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Activación de permisos para publicar convocatorias.</p>
+</div>
+</div>
+</div>
+<!-- Restricciones Durante la Espera (Didáctico) -->
+<div class="w-full bg-surface-container-highest/60 rounded-xl p-space-md flex flex-col gap-2.5 text-left mb-space-md">
+<div class="flex items-center gap-1.5 text-primary">
+<span class="material-symbols-outlined text-[18px]">lock_clock</span>
+<span class="font-label-lg text-label-lg font-bold">¿Qué puedes hacer mientras esperas?</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+          Mientras tu solicitud se evalúa, puedes explorar la cartelera estudiantil, guardar eventos en favoritos y compartir publicaciones como usuario regular.
+        </p>
+<div class="grid grid-cols-2 gap-2 pt-1">
+<div class="flex items-center gap-1.5 p-2 rounded-lg bg-surface-container-lowest text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-error text-[18px]">block</span>
+<span class="truncate">Crear Evento</span>
+</div>
+<div class="flex items-center gap-1.5 p-2 rounded-lg bg-surface-container-lowest text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-error text-[18px]">cloud_off</span>
+<span class="truncate">Importar Cartelera</span>
+</div>
+</div>
+</div>
+<!-- Plazo Estimado -->
+<div class="flex items-center justify-center gap-2 py-2 px-4 rounded-full bg-surface-container-high text-primary font-body-sm text-body-sm w-full">
+<span class="material-symbols-outlined text-[18px]">schedule</span>
+<span class="">Plazo estimado de respuesta: <strong>24 a 48 horas hábiles</strong> vía mail</span>
+</div>
+</div>
+<!-- Contacto con Soporte Mesa DAE -->
+<div class="mt-space-md p-space-md bg-surface-container-lowest rounded-xl shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">support_agent</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary">¿Dudas con tu verificación?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Escribe a dae@uchile.cl con tu ID #UCH-7842</p>
+</div>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container hover:bg-surface-container-high text-primary flex items-center justify-center transition-colors" onclick="alert('Ticket de consulta rápida copiado: UCH-7842')" type="button">
+<span class="material-symbols-outlined text-[18px]">mail</span>
+</button>
+</div>
+</div>
+<!-- FOOTER Y RETORNO -->
+<footer class="px-gutter-mobile py-space-xl flex flex-col items-center text-center gap-3">
+<a class="inline-flex items-center gap-2 font-label-lg text-label-lg text-primary hover:text-surface-tint active:scale-95 transition-all p-2 rounded-lg" href="#" onclick="history.back(); return false;">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="">¿Buscas ingresar como estudiante? Volver al inicio</span>
+</a>
+<p class="font-body-sm text-body-sm text-outline">
+      Comunidad Universitaria • Vicerrectoría de Asuntos Estudiantiles y Comunitarios
+    </p>
+</footer>
+<!-- SCRIPT PARA INTERACCIÓN DEL TAB Y ENVÍO -->
+<script>
+    function switchTab(tab) {
+      const formTab = document.getElementById('tab-content-form');
+      const statusTab = document.getElementById('tab-content-status');
+      const btnForm = document.getElementById('btn-tab-form');
+      const btnStatus = document.getElementById('btn-tab-status');
+
+      if (tab === 'form') {
+        formTab.classList.remove('hidden');
+        statusTab.classList.add('hidden');
+        
+        btnForm.className = "flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 bg-surface-container-lowest text-primary shadow-sm flex items-center justify-center gap-1.5";
+        btnStatus.className = "flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 text-on-surface-variant flex items-center justify-center gap-1.5";
+      } else {
+        formTab.classList.add('hidden');
+        statusTab.classList.remove('hidden');
+        
+        btnStatus.className = "flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 bg-surface-container-lowest text-primary shadow-sm flex items-center justify-center gap-1.5";
+        btnForm.className = "flex-1 py-2 rounded-lg font-label-lg text-label-lg transition-all duration-200 text-on-surface-variant flex items-center justify-center gap-1.5";
+      }
+    }
+
+    function handleFormSubmit(e) {
+      e.preventDefault();
+      
+      const submitBtn = e.target.querySelector('button[type="submit"]');
+      const originalText = submitBtn.innerHTML;
+      
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="material-symbols-outlined text-[20px] animate-spin">refresh</span><span>Registrando para revisión...</span>';
+      
+      setTimeout(() => {
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalText;
+        switchTab('status');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }, 700);
+    }
+  </script>
+</div></main>
+
+<script src="../_proto/router.js"></script>
+</body></html>

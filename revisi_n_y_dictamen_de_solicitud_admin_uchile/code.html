@@ -1,0 +1,392 @@
+<!DOCTYPE html><html lang="es" style="min-height: 100%; height: auto; opacity: 0;" data-stitch-anim-opacity="true" data-stitch-orig-opacity="1"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "tertiary-container": "#003554", "outline": "#747682", "on-primary-container": "#7b96ea", "on-error-container": "#93000a", "on-background": "#131b2e", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "on-tertiary-fixed-variant": "#004b73", "on-secondary-container": "#663500", "surface": "#faf8ff", "background": "#faf8ff", "on-surface": "#131b2e", "surface-tint": "#3d5aa9", "surface-container-high": "#e2e7ff", "secondary": "#904d00", "on-tertiary-container": "#3fa1e6", "surface-container": "#eaedff", "on-tertiary-fixed": "#001d31", "secondary-fixed": "#ffdcc3", "primary": "#00184d", "surface-container-lowest": "#ffffff", "on-primary": "#ffffff", "on-secondary": "#ffffff", "surface-variant": "#dae2fd", "error": "#ba1a1a", "inverse-primary": "#b4c5ff", "primary-fixed-dim": "#b4c5ff", "on-surface-variant": "#444651", "surface-bright": "#faf8ff", "on-error": "#ffffff", "surface-dim": "#d2d9f4", "tertiary-fixed": "#cce5ff", "on-secondary-fixed": "#2f1500", "primary-container": "#002b7a", "on-secondary-fixed-variant": "#6e3900", "inverse-surface": "#283044", "secondary-container": "#fe932c", "secondary-fixed-dim": "#ffb77d", "on-primary-fixed": "#00174b", "surface-container-highest": "#dae2fd", "inverse-on-surface": "#eef0ff", "outline-variant": "#c4c6d3", "on-primary-fixed-variant": "#224290", "primary-fixed": "#dbe1ff", "tertiary-fixed-dim": "#93ccff", "surface-container-low": "#f2f3ff", "tertiary": "#001f34" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-md": "1rem", "space-sm": "0.5rem", "margin": "2rem", "gutter-mobile": "1rem", "space-xl": "2.5rem", "space-xs": "0.25rem", "margin-mobile": "1rem", "gutter": "1.5rem" }, "fontFamily": { "body-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-md": ["22px", {"lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700"}], "headline-sm": ["18px", {"lineHeight": "26px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "label-md": ["12px", {"lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600"}], "label-caps": ["11px", {"lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700"}], "display-hero": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "800"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "display-hero-mobile": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700"}] } } } }</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface flex flex-col min-h-screen" style="min-height: 100%; height: auto; overflow-y: auto; overscroll-behavior-y: auto;"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Volver atrás" class="w-11 h-11 flex items-center justify-center text-primary rounded-full hover:bg-surface-container" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><div class="flex flex-col"><span class="font-label-caps text-label-caps text-on-surface-variant font-bold tracking-wider uppercase">Panel Institucional</span><h1 class="font-headline-sm text-headline-sm text-primary line-clamp-1">Detalle De Solicitud</h1></div></div><div class="flex items-center gap-space-xs"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-gutter-mobile pt-16 pb-8 bg-surface min-h-screen"><div class="flex flex-col w-full pb-28">
+<!-- Banner Estado Expediente -->
+<div class="bg-surface-container rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex items-center justify-between gap-space-sm mb-space-xs">
+<span class="font-label-caps text-label-caps text-primary tracking-wider uppercase font-bold">
+        Expediente #SOL-2025-084
+      </span>
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-md text-label-md font-semibold" id="statusBadge">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="">En Revisión (Pendiente)</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm mb-space-sm">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span class="">Recibida el 18 de Abril, 10:15 hrs · Vía Portal Estudiantil</span>
+</div>
+<!-- Identidad de la Organización -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-xl bg-primary-container flex items-center justify-center shrink-0 text-on-primary">
+<span class="material-symbols-outlined text-[28px]">precision_manufacturing</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase mb-1">
+<span class="material-symbols-outlined text-[12px]">verified_user</span>
+            Postulación Oficial
+          </div>
+<h2 class="font-headline-sm text-headline-sm text-primary leading-snug">Club de Robótica y Automatización Beauchef</h2>
+<div class="mt-1 flex flex-wrap gap-1.5 text-on-surface-variant font-label-md text-label-md">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-on-surface">Colectivo / Laboratorio Estudiantil</span>
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-on-surface">FCFM - Campus Beauchef</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 1: Representante Institucional -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[20px]">badge</span>
+<h3 class="">Representante y Verificación</h3>
+</div>
+<div class="space-y-space-sm">
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-label-lg shrink-0">
+          MP
+        </div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<p class="font-label-lg text-label-lg text-primary font-bold">Martín Paredes Carrasco</p>
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Coordinador General y Delegado</p>
+<p class="font-body-sm text-body-sm text-on-surface mt-0.5">Pregrado FCFM · Ing. Civil Eléctrica</p>
+</div>
+</div>
+<div class="grid grid-cols-1 gap-2 pt-1 font-body-sm text-body-sm">
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-outline text-[18px]">mail</span>
+<span class="font-medium">mparedes@ug.uchile.cl</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps font-bold">
+            Dominio UChile Válido ✓
+          </span>
+</div>
+<div class="flex items-center justify-between p-2 rounded-lg bg-surface-container-low">
+<div class="flex items-center gap-2 text-on-surface">
+<span class="material-symbols-outlined text-outline text-[18px]">call</span>
+<span class="font-medium">+56 9 8765 4321</span>
+</div>
+<span class="text-on-surface-variant font-label-md text-label-md">Móvil verificado</span>
+</div>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 2: Propósito y Actividades -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[20px]">assignment</span>
+<h3 class="">Propósito y Actividades Declaradas</h3>
+</div>
+<div class="space-y-space-sm">
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-semibold">Misión y Objetivos</span>
+<p class="mt-1 font-body-md text-body-md text-on-surface bg-surface-container-low p-space-sm rounded-lg leading-relaxed">
+          Grupo interdisciplinario enfocado en la construcción de prototipos robóticos de rescate, talleres de Arduino y Python gratuitos para mechones y divulgación científica abierta en Beauchef y colegios públicos.
+        </p>
+</div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-semibold">Proyección de Eventos en Plataforma</span>
+<div class="mt-1 flex items-start gap-2 p-space-sm rounded-lg bg-surface-container-low text-on-surface">
+<span class="material-symbols-outlined text-primary text-[20px] shrink-0">event_available</span>
+<p class="font-body-md text-body-md leading-snug">
+            Talleres mensuales, torneos interescolares de robótica y hackathones semestrales.
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 3: Documentación y Enlaces Oficiales -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[20px]">folder_open</span>
+<h3 class="">Respaldo y Enlaces Oficiales</h3>
+</div>
+<div class="space-y-space-sm">
+<!-- Carta Patrocinio PDF -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-error-container text-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">picture_as_pdf</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">Carta_Acreditación_DAI_Beauchef_2025.pdf</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Emitida: 12-Mar-2025 · Respaldada por DAI FCFM</p>
+</div>
+</div>
+<button class="px-2.5 py-1.5 rounded-lg bg-primary-container text-on-primary font-label-md text-label-md shrink-0 flex items-center gap-1 shadow-sm" onclick="alert('Abriendo visor seguro de documento PDF institucional')" type="button">
+<span class="">Ver PDF</span>
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+</button>
+</div>
+<!-- Instagram -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">share</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">@robotica.beauchef</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant truncate">2.4k seguidores · Actividad constante</p>
+</div>
+</div>
+<a class="px-2.5 py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md shrink-0 flex items-center gap-1" href="https://instagram.com" rel="noopener noreferrer" target="_blank">
+<span class="">Abrir</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<!-- Web oficial -->
+<div class="p-space-sm rounded-lg bg-surface-container-low flex items-center justify-between gap-3">
+<div class="flex items-center gap-3 min-w-0">
+<div class="w-10 h-10 rounded-lg bg-surface-variant text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]">language</span>
+</div>
+<div class="min-w-0">
+<p class="font-label-md text-label-md text-on-surface font-bold truncate">robotica.fcfm.uchile.cl</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Subdominio académico activo</p>
+</div>
+</div>
+<a class="px-2.5 py-1.5 rounded-lg bg-surface-container text-primary font-label-md text-label-md shrink-0 flex items-center gap-1" href="https://robotica.fcfm.uchile.cl" rel="noopener noreferrer" target="_blank">
+<span class="">Visitar</span>
+<span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 4: Línea de Tiempo del Expediente -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md mb-space-md shadow-sm">
+<div class="flex items-center gap-space-xs mb-space-sm text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[20px]">history</span>
+<h3 class="">Trazabilidad del Expediente</h3>
+</div>
+<div class="space-y-4 relative pl-3">
+<div class="flex items-start gap-3 relative">
+<div class="w-3 h-3 rounded-full bg-primary mt-1 shrink-0"></div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">18 Abr · 10:15 hrs</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">Solicitud ingresada por Martín Paredes</p>
+</div>
+</div>
+<div class="flex items-start gap-3 relative">
+<div class="w-3 h-3 rounded-full bg-primary-container mt-1 shrink-0"></div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">18 Abr · 11:30 hrs</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">Verificación automática de correo @ug.uchile.cl superada con éxito</p>
+</div>
+</div>
+<div class="flex items-start gap-3 relative">
+<div class="w-3 h-3 rounded-full bg-secondary-container mt-1 shrink-0"></div>
+<div>
+<span class="font-label-caps text-label-caps text-on-surface-variant">18 Abr · 14:00 hrs</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">Expediente asignado a revisión por Administrador Gabinete Central</p>
+</div>
+</div>
+</div>
+</div>
+<!-- SECCIÓN 6: Panel de Decisión y Dictamen Administrativo -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md" id="decisionPanel">
+<div class="mb-space-sm">
+<span class="font-label-caps text-label-caps text-primary uppercase font-bold tracking-wider">Dictamen Administrativo</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Resolución de la Solicitud</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Selecciona el dictamen formal. Esta acción notificará al delegado y quedará registrada en el historial central.</p>
+</div>
+<!-- Botones Selectores -->
+<div class="grid grid-cols-2 gap-space-sm mb-space-md">
+<button class="p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-primary-container text-on-primary shadow-sm" id="btnSelectApprove" onclick="selectAction('approve')" type="button">
+<span class="material-symbols-outlined text-[24px]">task_alt</span>
+<span class="font-label-lg text-label-lg font-bold">Aprobar</span>
+<span class="font-label-caps text-label-caps opacity-80">Habilitar comunidad</span>
+</button>
+<button class="p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-surface-container text-on-surface" id="btnSelectReject" onclick="selectAction('reject')" type="button">
+<span class="material-symbols-outlined text-[24px]">cancel</span>
+<span class="font-label-lg text-label-lg font-bold">Rechazar</span>
+<span class="font-label-caps text-label-caps opacity-80">Requiere causal</span>
+</button>
+</div>
+<!-- Zona Dinámica: Caso Aprobar -->
+<div class="p-space-md rounded-xl bg-surface-container-low mb-space-md" id="boxApprove">
+<div class="flex items-start gap-3 mb-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">verified</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-primary font-bold">¿Confirmar aprobación institucional?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+            La organización recibirá un correo automático oficial, se creará el perfil verificado y los delegados podrán publicar eventos de inmediato en la cartelera UChile.
+          </p>
+</div>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-primary-container hover:bg-primary text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-sm transition-colors" onclick="executeDecision('approved')" type="button">
+<span class="material-symbols-outlined text-[20px]">check_circle</span>
+<span class="">Confirmar y Otorgar Permisos</span>
+</button>
+</div>
+<!-- Zona Dinámica: Caso Rechazar -->
+<div class="hidden p-space-md rounded-xl bg-error-container text-on-error-container mb-space-md" id="boxReject">
+<div class="flex items-start gap-3 mb-space-sm">
+<div class="w-8 h-8 rounded-full bg-error text-on-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">gavel</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg font-bold text-on-error-container">Motivo Formal del Rechazo (Obligatorio)</h4>
+<p class="font-body-sm text-body-sm opacity-90 mt-0.5">El delegado recibirá este fundamento para subsanar o apelar.</p>
+</div>
+</div>
+<!-- Motivos rápidos -->
+<span class="font-label-caps text-label-caps uppercase font-bold tracking-wider block mb-1">Causales Frecuentes:</span>
+<div class="flex flex-wrap gap-1.5 mb-space-sm">
+<button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md" onclick="fillReason('Falta respaldo institucional de facultad (Carta DAI no adjunta o vencida)')" type="button">
+          Falta respaldo DAI
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md" onclick="fillReason('Correo de contacto no corresponde a dominio institucional vigente')" type="button">
+          Correo no institucional
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md" onclick="fillReason('Fines comerciales o de lucro no permitidos para colectivos universitarios')" type="button">
+          Fines comerciales
+        </button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md" onclick="fillReason('Organización duplicada con club ya acreditado en el campus')" type="button">
+          Organización duplicada
+        </button>
+</div>
+<div class="mb-space-sm">
+<textarea class="w-full p-2.5 rounded-lg bg-surface-container-lowest text-on-surface font-body-md text-body-md shadow-inner placeholder:text-outline focus:outline-none" id="rejectReasonText" placeholder="Describe detalladamente el fundamento institucional (ej: falta carta patrocinio, entidad comercial no universitaria, datos de contacto no institucionales)..." rows="3"></textarea>
+</div>
+<button class="w-full py-3 px-4 rounded-xl bg-error text-on-error font-label-lg text-label-lg font-bold flex items-center justify-center gap-2 shadow-sm" onclick="executeDecision('rejected')" type="button">
+<span class="material-symbols-outlined text-[20px]">block</span>
+<span class="">Confirmar Rechazo y Notificar</span>
+</button>
+</div>
+<!-- Estado Resuelto / Notificación de Confirmación -->
+<div class="hidden p-space-md rounded-xl text-center" id="boxFinalResult">
+<div class="w-16 h-16 rounded-full mx-auto mb-space-sm flex items-center justify-center shadow-md" id="finalIcon">
+<!-- SVG / Icon inyectado dinámicamente -->
+</div>
+<h3 class="font-headline-md text-headline-md font-bold mb-1" id="finalTitle"></h3>
+<p class="font-body-md text-body-md mb-space-md" id="finalMessage"></p>
+<div class="p-space-sm rounded-lg bg-surface-container-low text-left font-body-sm text-body-sm text-on-surface-variant space-y-1 mb-space-md">
+<div class="flex justify-between">
+<span class="">Resolución:</span>
+<span class="font-bold text-on-surface" id="finalResolutionTag"></span>
+</div>
+<div class="flex justify-between">
+<span class="">Operador:</span>
+<span class="font-bold text-on-surface">Administración Central</span>
+</div>
+<div class="flex justify-between">
+<span class="">Fecha &amp; Hora:</span>
+<span class="font-bold text-on-surface">Ahora mismo</span>
+</div>
+</div>
+<button class="py-2.5 px-4 rounded-xl bg-surface-container text-primary font-label-md text-label-md font-bold" onclick="resetDemo()" type="button">
+        Reestablecer simulación
+      </button>
+</div>
+</div>
+<!-- Barra de Acciones / Navegación Rápida UChile -->
+<div class="mt-space-lg flex items-center justify-between p-space-sm rounded-xl bg-surface-container text-primary font-label-md text-label-md">
+<button class="flex items-center gap-1.5 px-3 py-2 rounded-lg hover:bg-surface-container-high transition-colors" onclick="history.back()" type="button">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span class="">Volver a la Bandeja</span>
+</button>
+<div class="flex items-center gap-2">
+<button aria-label="Ir arriba" class="p-2 rounded-lg hover:bg-surface-container-high text-primary" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" type="button">
+<span class="material-symbols-outlined text-[20px]">vertical_align_top</span>
+</button>
+<button aria-label="Exportar expediente" class="p-2 rounded-lg hover:bg-surface-container-high text-primary" onclick="alert('Generando ficha resumen en formato PDF institucional UChile')" type="button">
+<span class="material-symbols-outlined text-[20px]">print</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  function selectAction(type) {
+    const btnApprove = document.getElementById('btnSelectApprove');
+    const btnReject = document.getElementById('btnSelectReject');
+    const boxApprove = document.getElementById('boxApprove');
+    const boxReject = document.getElementById('boxReject');
+
+    if (type === 'approve') {
+      btnApprove.className = 'p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-primary-container text-on-primary shadow-sm';
+      btnReject.className = 'p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-surface-container text-on-surface';
+      boxApprove.classList.remove('hidden');
+      boxReject.classList.add('hidden');
+    } else {
+      btnReject.className = 'p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-error text-on-error shadow-sm';
+      btnApprove.className = 'p-space-sm rounded-xl flex flex-col items-center justify-center gap-1.5 transition-all bg-surface-container text-on-surface';
+      boxApprove.classList.add('hidden');
+      boxReject.classList.remove('hidden');
+    }
+  }
+
+  function fillReason(text) {
+    const textarea = document.getElementById('rejectReasonText');
+    textarea.value = text;
+    textarea.focus();
+  }
+
+  function executeDecision(verdict) {
+    const statusBadge = document.getElementById('statusBadge');
+    const boxApprove = document.getElementById('boxApprove');
+    const boxReject = document.getElementById('boxReject');
+    const btnSelectApprove = document.getElementById('btnSelectApprove');
+    const btnSelectReject = document.getElementById('btnSelectReject');
+    const boxFinalResult = document.getElementById('boxFinalResult');
+    const finalIcon = document.getElementById('finalIcon');
+    const finalTitle = document.getElementById('finalTitle');
+    const finalMessage = document.getElementById('finalMessage');
+    const finalResolutionTag = document.getElementById('finalResolutionTag');
+
+    if (verdict === 'rejected') {
+      const reasonVal = document.getElementById('rejectReasonText').value.trim();
+      if (!reasonVal) {
+        alert('Por favor especifique un motivo obligatorio para formalizar el rechazo.');
+        return;
+      }
+    }
+
+    // Ocultar selectores y formularios
+    btnSelectApprove.parentElement.classList.add('hidden');
+    boxApprove.classList.add('hidden');
+    boxReject.classList.add('hidden');
+    boxFinalResult.classList.remove('hidden');
+
+    if (verdict === 'approved') {
+      statusBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-semibold';
+      statusBadge.innerHTML = '<span class="material-symbols-outlined text-[16px]">verified</span><span>Organización Acreditada</span>';
+      
+      finalIcon.className = 'w-16 h-16 rounded-full mx-auto mb-space-sm flex items-center justify-center shadow-md bg-primary-container text-on-primary';
+      finalIcon.innerHTML = '<span class="material-symbols-outlined text-[36px]">verified</span>';
+      finalTitle.className = 'font-headline-md text-headline-md font-bold text-primary mb-1';
+      finalTitle.innerText = '¡Solicitud Aprobada con Éxito!';
+      finalMessage.innerText = 'Se ha generado el sello de certificación de la Comunidad UChile. El coordinador Martín Paredes ha sido notificado al correo institucional y puede comenzar a publicar convocatorias.';
+      finalResolutionTag.innerText = 'APROBADA Y CERTIFICADA';
+    } else {
+      statusBadge.className = 'inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-error-container text-on-error-container font-label-md text-label-md font-semibold';
+      statusBadge.innerHTML = '<span class="material-symbols-outlined text-[16px]">cancel</span><span>Solicitud Rechazada</span>';
+      
+      finalIcon.className = 'w-16 h-16 rounded-full mx-auto mb-space-sm flex items-center justify-center shadow-md bg-error text-on-error';
+      finalIcon.innerHTML = '<span class="material-symbols-outlined text-[36px]">rule</span>';
+      finalTitle.className = 'font-headline-md text-headline-md font-bold text-error mb-1';
+      finalTitle.innerText = 'Expediente Rechazado';
+      finalMessage.innerText = 'Se ha enviado la resolución motivada al solicitante. El expediente ha quedado archivado con opción de subsanación.';
+      finalResolutionTag.innerText = 'RECHAZADA CON CAUSAL';
+    }
+  }
+
+  function resetDemo() {
+    location.reload();
+  }
+</script></main>
+
+
+
+<script src="../_proto/router.js"></script>
+</body></html>

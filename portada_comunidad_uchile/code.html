@@ -1,0 +1,437 @@
+<!DOCTYPE html><html class="light" lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><title>Comunidad UChile</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-fixed-dim": "#ffb77d", "on-surface": "#131b2e", "on-secondary-fixed-variant": "#6e3900", "inverse-primary": "#b4c5ff", "on-secondary": "#ffffff", "primary-fixed": "#dbe1ff", "outline-variant": "#c4c6d3", "surface-tint": "#3d5aa9", "on-error-container": "#93000a", "on-tertiary": "#ffffff", "surface-dim": "#d2d9f4", "on-primary": "#ffffff", "on-primary-fixed-variant": "#224290", "primary-fixed-dim": "#b4c5ff", "inverse-on-surface": "#eef0ff", "on-tertiary-fixed": "#001d31", "surface-container": "#eaedff", "tertiary-fixed-dim": "#93ccff", "tertiary-fixed": "#cce5ff", "surface-container-low": "#f2f3ff", "primary": "#00184d", "on-secondary-fixed": "#2f1500", "on-secondary-container": "#663500", "on-primary-container": "#7b96ea", "error-container": "#ffdad6", "on-tertiary-container": "#3fa1e6", "inverse-surface": "#283044", "on-tertiary-fixed-variant": "#004b73", "tertiary-container": "#003554", "on-surface-variant": "#444651", "error": "#ba1a1a", "surface-container-high": "#e2e7ff", "secondary-container": "#fe932c", "on-primary-fixed": "#00174b", "background": "#faf8ff", "on-error": "#ffffff", "on-background": "#131b2e", "surface-variant": "#dae2fd", "primary-container": "#002b7a", "tertiary": "#001f34", "secondary": "#904d00", "surface-bright": "#faf8ff", "surface": "#faf8ff", "surface-container-lowest": "#ffffff", "outline": "#747682", "secondary-fixed": "#ffdcc3", "surface-container-highest": "#dae2fd" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "gutter": "1.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-mobile": "1rem", "margin-mobile": "1rem", "margin": "2rem" }, fontFamily: { "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, fontSize: { "headline-lg-mobile": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "700" }], "display-hero-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }], "headline-sm": ["18px", { lineHeight: "26px", fontWeight: "600" }], "headline-md": ["22px", { lineHeight: "30px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600" }], "display-hero": ["48px", { lineHeight: "56px", letterSpacing: "-0.025em", fontWeight: "800" }], "body-lg": ["16px", { lineHeight: "24px", fontWeight: "400" }], "body-sm": ["12px", { lineHeight: "18px", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-caps": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Logo Comunidad UChile" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1UFW3oJOOBOqg0eUohru2PZtepkz5EIkqWHY9vQbRYMCujJLzI6RQZhMkdv6Z28gu0fXZqiMUTOKD4HFWLAx9geyv4w9uO4CIoTCSADu6z3cgrAM4xFaDkTASSl7nqaDwcruXB89UKttXbwCG51Krgi_ID4-TngMVqvbPMH4rVuXZAa6qrTh6_hgfCXpA0W_uc1nic8weqyH4wXM8-Q8ALJwbvkdRhKSWaw38Cvdx-A0t-M67gaHLPh43Lm"><div class="flex flex-col min-w-0"><span class="font-label-lg text-label-lg font-bold text-primary truncate leading-tight">Comunidad UChile</span><span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant truncate">Inicio</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><div class="flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps font-bold shadow-xs"><span class="material-symbols-outlined text-[14px]">school</span><span class="">Estudiante</span></div><button aria-label="Notificaciones" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary-container ring-2 ring-surface"></span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsH9V4pBcL35rGtTNYI_Y2IykYQe1Z-uVh-g_JIdljiKq13kcBXE0Yvx6c-y7hz5_gKdupr5RW8sEy2jNwM2nE1PGrVGMXDAvUa6a7YFZy41KLHoF_lKL7Pa8z_j4DaNCSiM36nF4gVTGakIyLa1WXWPBDJzjHD7pa9jwIVtBGdE02FmEQtv1PfVCbTRE3YfCPA_McT20cNBq1LLLEIOmmdt8Fullr2L0Ku5o6greFy4qX98KI35C9Rg"></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface min-h-screen pb-24"><div class="flex flex-col w-full pb-6 space-y-5">
+<!-- Saludo Cálido y Switch de Rol -->
+<section class="px-gutter-mobile pt-1 flex flex-col gap-3">
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider">Campus Conectado</span>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">¡Hola, Sofía! 👋</h1>
+</div>
+<!-- Indicador Rápido de Estado -->
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high shadow-sm">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span class="font-label-caps text-label-caps font-bold text-on-surface-variant">Beauchef</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant -mt-1">
+      ¿Qué haremos hoy en la Chile? Hay <span class="font-bold text-primary">42 actividades</span> activas.
+    </p>
+<!-- Switch de Rol Ergonomico -->
+
+</section>
+<!-- Barra de Búsqueda y Filtros Rápidos -->
+<section class="px-gutter-mobile">
+<div class="flex items-center gap-2">
+<div class="relative flex-1 flex items-center bg-surface-container-lowest rounded-xl shadow-sm px-3.5 h-12 focus-within:shadow-md transition-shadow">
+<span class="material-symbols-outlined text-outline text-[22px] mr-2">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" placeholder="Buscar por evento, facultad, taller..." type="text">
+<button aria-label="Limpiar búsqueda" class="text-outline hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">mic</span>
+</button>
+</div>
+<button aria-label="Abrir filtros" class="h-12 w-12 rounded-xl bg-surface-container-high text-primary hover:bg-primary-container hover:text-on-primary transition-all flex items-center justify-center shadow-sm relative" id="filter-toggle" type="button">
+<span class="material-symbols-outlined text-[22px]">tune</span>
+<span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary-container"></span>
+</button>
+</div>
+</section>
+<!-- Carrusel Horizontal de Categorías con Conteo -->
+<section class="flex flex-col gap-2">
+<div class="px-gutter-mobile flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider font-bold">Explorar por Área</span>
+<span class="font-label-md text-label-md text-primary font-bold">Ver mapa</span>
+</div>
+<div class="flex gap-2.5 overflow-x-auto px-gutter-mobile no-scrollbar pb-1 pt-0.5">
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-primary-container text-on-primary shadow-sm transition-transform active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">apps</span>
+<span class="font-label-md text-label-md font-bold">Todos</span>
+<span class="font-label-caps text-label-caps bg-on-primary/20 text-on-primary px-1.5 py-0.5 rounded-full">42</span>
+</button>
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-primary">auto_stories</span>
+<span class="font-label-md text-label-md font-semibold">Académicos</span>
+<span class="font-label-caps text-label-caps bg-surface-container-high text-on-surface-variant px-1.5 py-0.5 rounded-full font-bold">14</span>
+</button>
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-secondary">palette</span>
+<span class="font-label-md text-label-md font-semibold">Cultura y Arte</span>
+<span class="font-label-caps text-label-caps bg-surface-container-high text-on-surface-variant px-1.5 py-0.5 rounded-full font-bold">11</span>
+</button>
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-on-secondary-container">fitness_center</span>
+<span class="font-label-md text-label-md font-semibold">Deportes</span>
+<span class="font-label-caps text-label-caps bg-surface-container-high text-on-surface-variant px-1.5 py-0.5 rounded-full font-bold">8</span>
+</button>
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-error">celebration</span>
+<span class="font-label-md text-label-md font-semibold">Fiestas</span>
+<span class="font-label-caps text-label-caps bg-surface-container-high text-on-surface-variant px-1.5 py-0.5 rounded-full font-bold">6</span>
+</button>
+<button class="category-chip flex-shrink-0 flex items-center gap-2 px-3.5 py-2 rounded-full bg-surface-container-lowest text-on-surface shadow-sm hover:bg-surface-container transition-all active:scale-95" type="button">
+<span class="material-symbols-outlined text-[18px] text-tertiary-container">psychology</span>
+<span class="font-label-md text-label-md font-semibold">Talleres</span>
+<span class="font-label-caps text-label-caps bg-surface-container-high text-on-surface-variant px-1.5 py-0.5 rounded-full font-bold">9</span>
+</button>
+</div>
+</section>
+<!-- Banner Interactivo: Evento Destacado de la Semana -->
+<section class="px-gutter-mobile">
+<div class="relative w-full rounded-2xl overflow-hidden shadow-lg bg-primary text-on-primary">
+<div class="bg-cover bg-center w-full h-56 relative" data-alt="Photorealistic vibrant daytime view of energetic Chilean university students gathered at the modern Beauchef 851 engineering campus patio in Santiago, with dramatic architectural glass facades, sunlight casting geometric shadows, students laughing with colorful backpacks and notebooks, navy blue and golden amber university banners subtly waving, shot with natural warm cinematic depth of field." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBw-eWmp_WV3VtHTetVSAfxDJhl2cd0JqDRpRtpFJ1gpFLCZM-sSVzHtKjzk75hT7O2CTpQxSHXWzM4qGHBYsfDX1wISJ2dgIS0kQgzMXnq3xYcZO1lpl3PaiAtw54n_hk77jNkOaJVNQa1aptW3ERTJD4PSt6my3m868PFN0C_QKQiI3KNC-5rKrymTQALsGWxKtkqJcrjAT1CDg182sHh1dfmlTjR_x0pj09EUD19p1VP_GGCOwUtvw')">
+<div class="absolute inset-0 bg-gradient-to-t from-primary via-primary/60 to-transparent"></div>
+<!-- Badges Superiores -->
+<div class="absolute top-3 left-3 right-3 flex items-center justify-between">
+<div class="flex items-center gap-1.5 bg-secondary-container/95 backdrop-blur-md px-2.5 py-1 rounded-full text-on-secondary-container font-label-caps text-label-caps font-bold shadow-sm">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+<span class="">DESTACADO DE LA SEMANA</span>
+</div>
+<span class="bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-caps text-label-caps font-bold px-2.5 py-1 rounded-full shadow-sm">
+            Gratuito
+          </span>
+</div>
+<!-- Botón Guardar Rápido Flotante -->
+<button aria-label="Guardar Semana Mechona" class="bookmark-btn absolute bottom-3 right-3 w-10 h-10 rounded-full bg-surface-container-lowest/90 backdrop-blur-md text-on-surface hover:text-secondary flex items-center justify-center transition-all shadow-md active:scale-90" type="button">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+<!-- Contenido Informativo del Banner -->
+<div class="p-4 flex flex-col gap-2.5">
+<div class="flex items-center gap-2 text-primary-fixed font-label-caps text-label-caps font-bold tracking-wider uppercase">
+<span class="material-symbols-outlined text-[16px]">calendar_today</span>
+<span class="">Jueves 17 Abr · 11:00 hrs</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-primary font-bold leading-tight">
+          Feria Científica y Tecnológica Beauchef 2025
+        </h2>
+<div class="flex items-center gap-2 text-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-fixed-dim">location_on</span>
+<span class="truncate">Patio Central Beauchef 851, FCFM Santiago</span>
+</div>
+<div class="pt-2 flex items-center justify-between gap-3">
+<div class="flex items-center -space-x-2">
+<span class="w-7 h-7 rounded-full bg-secondary-container flex items-center justify-center text-on-secondary-container font-label-caps text-label-caps font-bold shadow-sm">FC</span>
+<span class="w-7 h-7 rounded-full bg-primary-container flex items-center justify-center text-on-primary font-label-caps text-label-caps font-bold shadow-sm">CE</span>
+<span class="w-7 h-7 rounded-full bg-surface-container-highest flex items-center justify-center text-primary font-label-caps text-label-caps font-bold shadow-sm">+8</span>
+<span class="pl-3 font-label-caps text-label-caps text-primary-fixed">142 asistirán</span>
+</div>
+<button class="px-4 py-2 rounded-xl bg-surface-container-lowest text-primary font-label-lg text-label-lg font-bold hover:bg-primary-fixed transition-colors shadow-sm flex items-center gap-1.5 active:scale-95" type="button">
+<span class="">Ver detalles</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Sección Próximos en tu Facultad -->
+<section class="px-gutter-mobile flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">domain</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Próximos en tu Facultad</h2>
+</div>
+<button class="font-label-md text-label-md text-primary font-bold hover:underline" type="button">
+        Ver todo
+      </button>
+</div>
+<!-- Filtros de Campus Rápidos -->
+<div class="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-0.5">
+<span class="font-label-caps text-label-caps text-on-surface-variant font-bold pr-1">Sede:</span>
+<button class="px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-caps text-label-caps font-bold shadow-xs" type="button">FCFM Beauchef</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps font-semibold" type="button">JGM Ñuñoa</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps font-semibold" type="button">FEN Diagonal</button>
+<button class="px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps font-semibold" type="button">Casa Central</button>
+</div>
+<!-- Lista de Tarjetas de Eventos con Calendario Lateral -->
+<div class="flex flex-col gap-3">
+<!-- Tarjeta Evento 1 -->
+<article class="bg-surface-container-lowest rounded-2xl p-3.5 shadow-sm hover:shadow-md transition-shadow flex gap-3 relative">
+<!-- Bloque Fecha Lateral -->
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-16 rounded-xl bg-surface-container-low text-primary overflow-hidden shadow-xs">
+<div class="w-full bg-primary-container py-0.5 text-center">
+<span class="font-label-caps text-label-caps text-on-primary uppercase font-bold tracking-widest">ABR</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold my-auto">18</span>
+</div>
+<!-- Info Principal -->
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div class="flex items-start justify-between gap-1">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-900 font-label-caps text-label-caps font-bold">Presencial</span>
+<span class="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-label-caps text-label-caps font-bold">Cupos Limitados</span>
+</div>
+<button aria-label="Agregar a favoritos" class="fav-toggle text-outline hover:text-error transition-transform active:scale-125" type="button">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold leading-snug line-clamp-2 mt-1">
+            Hackathon Beauchef 2025: Soluciones Climáticas
+          </h3>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm mt-1.5">
+<span class="truncate font-semibold text-primary">Centro de Estudiantes CEEI</span>
+<span class="flex-shrink-0">15:30 hrs</span>
+</div>
+</div>
+</article>
+<!-- Tarjeta Evento 2 -->
+<article class="bg-surface-container-lowest rounded-2xl p-3.5 shadow-sm hover:shadow-md transition-shadow flex gap-3 relative">
+<!-- Bloque Fecha Lateral -->
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-16 rounded-xl bg-surface-container-low text-primary overflow-hidden shadow-xs">
+<div class="w-full bg-primary-container py-0.5 text-center">
+<span class="font-label-caps text-label-caps text-on-primary uppercase font-bold tracking-widest">ABR</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold my-auto">22</span>
+</div>
+<!-- Info Principal -->
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div class="flex items-start justify-between gap-1">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-sky-100 text-sky-900 font-label-caps text-label-caps font-bold">Híbrido</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-caps text-label-caps font-bold">Auditorio Gorbea</span>
+</div>
+<button aria-label="Agregar a favoritos" class="fav-toggle text-outline hover:text-error transition-transform active:scale-125" type="button">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold leading-snug line-clamp-2 mt-1">
+            Charla Magistral: Astronomía de Datos en el Desierto de Atacama
+          </h3>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm mt-1.5">
+<span class="truncate font-semibold text-primary">Depto. de Astronomía DAS</span>
+<span class="flex-shrink-0">17:00 hrs</span>
+</div>
+</div>
+</article>
+<!-- Tarjeta Evento 3 (JGM) -->
+<article class="bg-surface-container-lowest rounded-2xl p-3.5 shadow-sm hover:shadow-md transition-shadow flex gap-3 relative">
+<div class="flex-shrink-0 flex flex-col items-center justify-center w-14 h-16 rounded-xl bg-surface-container-low text-primary overflow-hidden shadow-xs">
+<div class="w-full bg-secondary-container py-0.5 text-center">
+<span class="font-label-caps text-label-caps text-on-secondary-container uppercase font-bold tracking-widest">ABR</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold my-auto">25</span>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div class="flex items-start justify-between gap-1">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-purple-100 text-purple-900 font-label-caps text-label-caps font-bold">Campus JGM</span>
+<span class="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-900 font-label-caps text-label-caps font-bold">Entrada Libre</span>
+</div>
+<button aria-label="Agregar a favoritos" class="fav-toggle text-outline hover:text-error transition-transform active:scale-125" type="button">
+<span class="material-symbols-outlined text-[20px]">favorite_border</span>
+</button>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface font-bold leading-snug line-clamp-2 mt-1">
+            Ciclo de Cine Latinoamericano al Aire Libre
+          </h3>
+<div class="flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm mt-1.5">
+<span class="truncate font-semibold text-primary">Cine Club JGM · FCEI</span>
+<span class="flex-shrink-0">19:00 hrs</span>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Banner Informativo Comunitario / Momento de Deleite -->
+<section class="px-gutter-mobile">
+<div class="w-full p-4 rounded-2xl bg-gradient-to-r from-surface-container-high via-surface-container to-surface-variant flex items-center justify-between gap-3 shadow-xs">
+<div class="flex items-center gap-3">
+<div class="w-11 h-11 rounded-xl bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">campaign</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-caps text-label-caps uppercase text-secondary font-bold tracking-wider">¿Organizas un evento?</span>
+<p class="font-label-md text-label-md font-bold text-on-surface">Publica tu actividad de centro de alumnos o taller</p>
+</div>
+</div>
+<button class="w-9 h-9 rounded-full bg-surface-container-lowest text-primary hover:bg-primary-container hover:text-on-primary flex items-center justify-center flex-shrink-0 shadow-sm transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">add</span>
+</button>
+</div>
+</section>
+<!-- Sección Tendencias y Más Votados con Reseñas de Estudiantes -->
+<section class="px-gutter-mobile flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[22px]">star</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Tendencias y Más Votados</h2>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase font-semibold">Comunidad Calificada</span>
+</div>
+<!-- Carrusel Horizontal de Eventos Destacados por la Comunidad -->
+<div class="grid grid-cols-1 gap-3">
+<!-- Card Tendencia 1 -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="flex p-3 gap-3">
+<div class="bg-cover bg-center w-24 h-24 rounded-xl flex-shrink-0 relative" data-alt="Modern indoor photograph of Juan Gómez Millas campus library and cultural space at Universidad de Chile, with warm ambient lights, shelves filled with books, small group of students participating in an active poetry and literature discussion workshop around polished wood tables, candid expressions." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAVKBlwFfmwVqeSdGy0xDJQqwPLlQVDS5XaQAPJTHtP0tIO68tDEMbJZ4wBFCafIBZhLB1oBPuaeoS2fwh8q9C5R1Zlr-GJsNWqeut9zC0z8bkGZ6VrJBHe8dt8o_1jjbjq3Rbqng0wdWXsGVYdJnHQU5nBSI5pN02_OGm5yqqQXQ-567y0N6ogL1YaTO0-1nJ-g4BoLAfDnsA1xQRwXRBS0kQF2Nfbq8KmO8U2j2ONOVMiZgArOsMz2g')">
+<span class="absolute top-1.5 left-1.5 bg-primary/90 text-on-primary font-label-caps text-label-caps font-bold px-1.5 py-0.5 rounded">
+              TOP 1
+            </span>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.9</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(120 reseñas)</span>
+</div>
+<h3 class="font-label-lg text-label-lg font-bold text-on-surface leading-tight mt-1 truncate">
+                Taller de Escritura y Poesía JGM
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic truncate mt-0.5">
+                "¡Excelente charla! Ambiente muy acogedor e inspirador."
+              </p>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-caps text-label-caps text-primary font-bold">Facultad de Filosofía</span>
+<button class="font-label-caps text-label-caps text-primary underline font-bold" type="button">Ver feedback</button>
+</div>
+</div>
+</div>
+</article>
+<!-- Card Tendencia 2 (FEN) -->
+<article class="bg-surface-container-lowest rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow">
+<div class="flex p-3 gap-3">
+<div class="bg-cover bg-center w-24 h-24 rounded-xl flex-shrink-0 relative" data-alt="Wide shot of modern lecture hall at Facultad de Economia y Negocios FEN Universidad de Chile in Diagonal Paraguay Santiago, energetic young Chilean speaker with microphone presenting startup analytics on large illuminated screens, rows of university students in attentive seats." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB1K_a8tpM2u55GoKQ1Fmj6XsfAQs5BWVQTeq721oDkqQ4rrhdBvu4-BkZIoS4THU-cU54aLo4JE8eboA9XrIV3ChNQRVN3cSY98joNSxSJ0KcRr026QFPGujruMkJkUPhcn94pUhNz6w6WS239JeZJYSWqtCgcJ5uzujBIYe-Q5s0IIBzfg4AMswZccC2DvNiJF0kZ1Am0cqUUha8uBaI0dJYk5GmWn1AgU503ljfUrBs2ycOtLyLuaQ')">
+<span class="absolute top-1.5 left-1.5 bg-secondary-container text-on-secondary-container font-label-caps text-label-caps font-bold px-1.5 py-0.5 rounded">
+              TOP 2
+            </span>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.8</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">(94 reseñas)</span>
+</div>
+<h3 class="font-label-lg text-label-lg font-bold text-on-surface leading-tight mt-1 truncate">
+                Cumbre Emprendimiento FEN 2025
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic truncate mt-0.5">
+                "Los mentores son de primer nivel. Conexiones reales."
+              </p>
+</div>
+<div class="flex items-center justify-between pt-1">
+<span class="font-label-caps text-label-caps text-primary font-bold">FEN · Diagonal Paraguay</span>
+<button class="font-label-caps text-label-caps text-primary underline font-bold" type="button">Ver feedback</button>
+</div>
+</div>
+</div>
+</article>
+</div>
+</section>
+<!-- Espacio para Red de Campus de la Chile -->
+<section class="px-gutter-mobile">
+<div class="bg-surface-container-low rounded-2xl p-4 flex flex-col gap-3 shadow-xs">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]">explore</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Conexión Inter-Facultades</h3>
+</div>
+<span class="font-label-caps text-label-caps bg-surface-container-highest px-2 py-0.5 rounded-full text-primary font-bold">
+          8 Campus
+        </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Descubre actividades compartidas entre Medicina (Independencia), Antumapu (La Pintana), FEN, JGM y Beauchef.
+      </p>
+<div class="grid grid-cols-2 gap-2">
+<a class="p-2.5 rounded-xl bg-surface-container-lowest flex items-center gap-2 shadow-xs hover:bg-surface-container transition-colors" href="#">
+<span class="material-symbols-outlined text-primary text-[18px]">biotech</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-bold text-on-surface truncate">Medicina</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant truncate">Campus Norte</span>
+</div>
+</a>
+<a class="p-2.5 rounded-xl bg-surface-container-lowest flex items-center gap-2 shadow-xs hover:bg-surface-container transition-colors" href="#">
+<span class="material-symbols-outlined text-emerald-700 text-[18px]">agriculture</span>
+<div class="flex flex-col min-w-0">
+<span class="font-label-md text-label-md font-bold text-on-surface truncate">Antumapu</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant truncate">Campus Sur</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Micro-interacciones locales: Switch de Rol
+  document.querySelectorAll('.role-pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.role-pill').forEach(b => {
+        b.classList.remove('bg-primary-container', 'text-on-primary', 'font-bold', 'shadow-sm');
+        b.classList.add('text-on-surface-variant', 'font-semibold');
+        b.setAttribute('aria-selected', 'false');
+      });
+      btn.classList.add('bg-primary-container', 'text-on-primary', 'font-bold', 'shadow-sm');
+      btn.classList.remove('text-on-surface-variant', 'font-semibold');
+      btn.setAttribute('aria-selected', 'true');
+    });
+  });
+
+  // Micro-interacciones locales: Categorías Chip
+  document.querySelectorAll('.category-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      document.querySelectorAll('.category-chip').forEach(c => {
+        c.classList.remove('bg-primary-container', 'text-on-primary');
+        c.classList.add('bg-surface-container-lowest', 'text-on-surface');
+        const badge = c.querySelector('span:last-child');
+        if (badge) {
+          badge.classList.remove('bg-on-primary/20', 'text-on-primary');
+          badge.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        }
+      });
+      chip.classList.add('bg-primary-container', 'text-on-primary');
+      chip.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+      const activeBadge = chip.querySelector('span:last-child');
+      if (activeBadge) {
+        activeBadge.classList.add('bg-on-primary/20', 'text-on-primary');
+        activeBadge.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+      }
+    });
+  });
+
+  // Toggle Favorito / Bookmark con animación suave
+  document.querySelectorAll('.fav-toggle').forEach(fav => {
+    fav.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const icon = fav.querySelector('.material-symbols-outlined');
+      if (icon.innerText === 'favorite_border') {
+        icon.innerText = 'favorite';
+        icon.style.fontVariationSettings = "'FILL' 1";
+        fav.classList.add('text-error');
+        fav.classList.remove('text-outline');
+      } else {
+        icon.innerText = 'favorite_border';
+        icon.style.fontVariationSettings = "'FILL' 0";
+        fav.classList.remove('text-error');
+        fav.classList.add('text-outline');
+      }
+    });
+  });
+
+  // Bookmark banner
+  document.querySelectorAll('.bookmark-btn').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const icon = btn.querySelector('.material-symbols-outlined');
+      if (icon.innerText === 'bookmark_border') {
+        icon.innerText = 'bookmark';
+        icon.style.fontVariationSettings = "'FILL' 1";
+        btn.classList.add('text-secondary');
+      } else {
+        icon.innerText = 'bookmark_border';
+        icon.style.fontVariationSettings = "'FILL' 0";
+        btn.classList.remove('text-secondary');
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.05)]" data-active-classes="text-primary-container font-bold [&amp;_span.material-symbols-outlined]:scale-110"><div class="h-16 px-space-xs flex items-center justify-around"><a aria-current="page" class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 transition-all text-primary-container font-bold [&amp;_span.material-symbols-outlined]:scale-110" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">home</span><span class="font-label-caps text-label-caps tracking-tight">Inicio</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="explorar" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">search</span><span class="font-label-caps text-label-caps tracking-tight">Explorar</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="calendario" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">calendar_month</span><span class="font-label-caps text-label-caps tracking-tight">Calendario</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="guardados" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">bookmark</span><span class="font-label-caps text-label-caps tracking-tight">Guardados</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="panel-org" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">corporate_fare</span><span class="font-label-caps text-label-caps tracking-tight">Panel Org</span></a></div></nav>
+
+
+
+<script src="../_proto/router.js"></script>
+</body></html>

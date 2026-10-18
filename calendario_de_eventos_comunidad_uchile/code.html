@@ -1,0 +1,476 @@
+<!DOCTYPE html><html class="light" lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><title>Comunidad UChile</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "secondary-fixed-dim": "#ffb77d", "on-surface": "#131b2e", "on-secondary-fixed-variant": "#6e3900", "inverse-primary": "#b4c5ff", "on-secondary": "#ffffff", "primary-fixed": "#dbe1ff", "outline-variant": "#c4c6d3", "surface-tint": "#3d5aa9", "on-error-container": "#93000a", "on-tertiary": "#ffffff", "surface-dim": "#d2d9f4", "on-primary": "#ffffff", "on-primary-fixed-variant": "#224290", "primary-fixed-dim": "#b4c5ff", "inverse-on-surface": "#eef0ff", "on-tertiary-fixed": "#001d31", "surface-container": "#eaedff", "tertiary-fixed-dim": "#93ccff", "tertiary-fixed": "#cce5ff", "surface-container-low": "#f2f3ff", "primary": "#00184d", "on-secondary-fixed": "#2f1500", "on-secondary-container": "#663500", "on-primary-container": "#7b96ea", "error-container": "#ffdad6", "on-tertiary-container": "#3fa1e6", "inverse-surface": "#283044", "on-tertiary-fixed-variant": "#004b73", "tertiary-container": "#003554", "on-surface-variant": "#444651", "error": "#ba1a1a", "surface-container-high": "#e2e7ff", "secondary-container": "#fe932c", "on-primary-fixed": "#00174b", "background": "#faf8ff", "on-error": "#ffffff", "on-background": "#131b2e", "surface-variant": "#dae2fd", "primary-container": "#002b7a", "tertiary": "#001f34", "secondary": "#904d00", "surface-bright": "#faf8ff", "surface": "#faf8ff", "surface-container-lowest": "#ffffff", "outline": "#747682", "secondary-fixed": "#ffdcc3", "surface-container-highest": "#dae2fd" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-sm": "0.5rem", "gutter": "1.5rem", "space-xs": "0.25rem", "space-xl": "2.5rem", "space-lg": "1.5rem", "space-md": "1rem", "gutter-mobile": "1rem", "margin-mobile": "1rem", "margin": "2rem" }, fontFamily: { "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero-mobile": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"] }, fontSize: { "headline-lg-mobile": ["24px", { lineHeight: "32px", letterSpacing: "-0.015em", fontWeight: "700" }], "display-hero-mobile": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "800" }], "headline-sm": ["18px", { lineHeight: "26px", fontWeight: "600" }], "headline-md": ["22px", { lineHeight: "30px", letterSpacing: "-0.01em", fontWeight: "700" }], "label-lg": ["14px", { lineHeight: "20px", letterSpacing: "0.01em", fontWeight: "600" }], "display-hero": ["48px", { lineHeight: "56px", letterSpacing: "-0.025em", fontWeight: "800" }], "body-lg": ["16px", { lineHeight: "24px", fontWeight: "400" }], "body-sm": ["12px", { lineHeight: "18px", fontWeight: "400" }], "label-md": ["12px", { lineHeight: "16px", letterSpacing: "0.02em", fontWeight: "600" }], "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.02em", fontWeight: "700" }], "label-caps": ["11px", { lineHeight: "14px", letterSpacing: "0.06em", fontWeight: "700" }], "body-md": ["14px", { lineHeight: "20px", fontWeight: "400" }] } } } }</script><style>@layer base { html, body { width: 100vw; margin: 0; padding: 0; } body { overscroll-behavior-y: none; } .pb-safe { padding-bottom: env(safe-area-inset-bottom, 0px); } .pt-safe { padding-top: env(safe-area-inset-top, 0px); } main > :first-child { margin-top: 0 !important; } main > :last-child { margin-bottom: 0 !important; } } ::-webkit-scrollbar { display: none; }</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head><body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen" style="min-height: 100%; height: auto; overflow-y: auto;"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="Logo Comunidad UChile" class="h-8 w-auto object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/AEtjO1UFW3oJOOBOqg0eUohru2PZtepkz5EIkqWHY9vQbRYMCujJLzI6RQZhMkdv6Z28gu0fXZqiMUTOKD4HFWLAx9geyv4w9uO4CIoTCSADu6z3cgrAM4xFaDkTASSl7nqaDwcruXB89UKttXbwCG51Krgi_ID4-TngMVqvbPMH4rVuXZAa6qrTh6_hgfCXpA0W_uc1nic8weqyH4wXM8-Q8ALJwbvkdRhKSWaw38Cvdx-A0t-M67gaHLPh43Lm"><div class="flex flex-col min-w-0"><span class="font-label-lg text-label-lg font-bold text-primary truncate leading-tight">Comunidad UChile</span><span class="font-label-caps text-label-caps uppercase tracking-wider text-on-surface-variant truncate">Inicio</span></div></div><div class="flex items-center gap-space-xs flex-shrink-0"><div class="px-2.5 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-caps text-label-caps font-bold flex items-center gap-1 select-none"><span class="w-1.5 h-1.5 rounded-full bg-primary"></span><span class="">Estudiante</span></div><button aria-label="Notificaciones" class="relative w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">notifications</span><span class="absolute top-2.5 right-2.5 w-2 h-2 rounded-full bg-secondary-container ring-2 ring-surface"></span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsH9V4pBcL35rGtTNYI_Y2IykYQe1Z-uVh-g_JIdljiKq13kcBXE0Yvx6c-y7hz5_gKdupr5RW8sEy2jNwM2nE1PGrVGMXDAvUa6a7YFZy41KLHoF_lKL7Pa8z_j4DaNCSiM36nF4gVTGakIyLa1WXWPBDJzjHD7pa9jwIVtBGdE02FmEQtv1PfVCbTRE3YfCPA_McT20cNBq1LLLEIOmmdt8Fullr2L0Ku5o6greFy4qX98KI35C9Rg"></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface min-h-screen pb-28"><div class="flex flex-col w-full">
+<!-- Interactive View State Handler -->
+<div class="px-gutter-mobile pt-space-md pb-space-xs flex flex-col gap-space-md">
+<!-- Top Calendar Header: Month Navigator + Quick Action -->
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<button aria-label="Mes anterior" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-95 transition-transform" id="prev-month-btn">
+<span class="material-symbols-outlined text-[20px]">chevron_left</span>
+</button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-surface-container hover:bg-surface-container-high transition-colors text-left" id="month-picker-trigger">
+<span class="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">Abril 2025</span>
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_drop_down</span>
+</button>
+<button aria-label="Mes siguiente" class="w-9 h-9 rounded-full bg-surface-container flex items-center justify-center text-primary active:scale-95 transition-transform" id="next-month-btn">
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</button>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-1 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-semibold shadow-sm active:scale-95 transition-all" id="today-btn">
+          Hoy
+        </button>
+<!-- Week / Month Switcher -->
+<div class="flex bg-surface-container-high p-0.5 rounded-full">
+<button class="px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-caps text-label-caps transition-all" id="toggle-week">
+            Semana
+          </button>
+<button class="px-2.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all" id="toggle-month">
+            Mes
+          </button>
+</div>
+</div>
+</div>
+<!-- Quick Filter Chips Horizontal Scroller -->
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5 -mx-gutter-mobile px-gutter-mobile">
+<button class="filter-chip active flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md shadow-sm transition-all">
+<span class="">Todos</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface/20 font-label-caps text-label-caps">14</span>
+</button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md transition-all">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span>
+<span class="">Mis inscripciones</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-highest font-label-caps text-label-caps">3</span>
+</button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md transition-all">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">bookmark</span>
+<span class="">Guardados</span>
+<span class="px-1.5 py-0.2 rounded-full bg-surface-container-highest font-label-caps text-label-caps">5</span>
+</button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md transition-all">
+<span class="material-symbols-outlined text-[16px]">apartment</span>
+<span class="">FCFM</span>
+</button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md transition-all">
+<span class="material-symbols-outlined text-[16px]">local_library</span>
+<span class="">JGM</span>
+</button>
+<button class="filter-chip flex-shrink-0 flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container text-on-surface-variant hover:bg-surface-container-high font-label-md text-label-md transition-all">
+<span class="material-symbols-outlined text-[16px]">finance</span>
+<span class="">FEN</span>
+</button>
+</div>
+<!-- View Mode 1: Horizontal Week Ribbon View -->
+<div class="flex flex-col gap-2 transition-all duration-300" id="week-view">
+<div class="grid grid-cols-7 gap-1.5">
+<!-- Lun 14 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Lun</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">14</span>
+<div class="h-1.5 flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+</button>
+<!-- Mar 15 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Mar</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">15</span>
+<div class="h-1.5 flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+</button>
+<!-- Mie 16 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Mié</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">16</span>
+<div class="h-1.5 flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+</button>
+<!-- Jue 17 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Jue</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">17</span>
+<div class="h-1.5 flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+</div>
+</button>
+<!-- Vie 18 (Selected Active Day) -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-primary-container text-on-primary shadow-md scale-105 ring-2 ring-primary-container ring-offset-2 ring-offset-surface transition-all">
+<span class="font-label-caps text-label-caps text-on-primary font-bold uppercase">Vie</span>
+<span class="font-headline-sm text-headline-sm text-on-primary font-bold my-0.5">18</span>
+<div class="h-1.5 flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-primary-fixed"></span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-fixed"></span>
+</div>
+</button>
+<!-- Sab 19 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Sáb</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">19</span>
+<div class="h-1.5 flex items-center gap-0.5">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container"></span>
+</div>
+</button>
+<!-- Dom 20 -->
+<button class="day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm opacity-60 hover:opacity-100 transition-all">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Dom</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold my-0.5">20</span>
+<div class="h-1.5"></div>
+</button>
+</div>
+</div>
+<!-- View Mode 2: Month Grid View (Collapsible) -->
+<div class="hidden bg-surface-container-lowest rounded-2xl p-space-md shadow-sm flex-col gap-2 transition-all" id="month-view">
+<div class="grid grid-cols-7 text-center font-label-caps text-label-caps text-on-surface-variant pb-2">
+<span class="">LU</span><span class="">MA</span><span class="">MI</span><span class="">JU</span><span class="">VI</span><span class="">SÁ</span><span class="">DO</span>
+</div>
+<div class="grid grid-cols-7 gap-1 text-center font-body-sm text-body-sm">
+<span class="text-outline-variant py-1.5">31</span>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">1</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">2</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">3</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">4<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">5</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container text-on-surface-variant opacity-60">6</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">7</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">8<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-secondary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">9</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">10</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">11<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">12</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container text-on-surface-variant opacity-60">13</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">14<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">15<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-secondary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">16</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">17</button>
+<button class="py-1.5 rounded-lg bg-primary-container text-on-primary font-bold relative shadow-sm">18<span class="absolute bottom-0.5 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-secondary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">19</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container text-on-surface-variant opacity-60">20</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">21</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">22</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">23<span class="absolute bottom-1 left-1/2 -translate-x-1/2 w-1 h-1 rounded-full bg-primary-container"></span></button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">24</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">25</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">26</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container text-on-surface-variant opacity-60">27</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">28</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">29</button>
+<button class="py-1.5 rounded-lg hover:bg-surface-container relative font-medium">30</button>
+<span class="text-outline-variant py-1.5">1</span>
+<span class="text-outline-variant py-1.5">2</span>
+<span class="text-outline-variant py-1.5">3</span>
+<span class="text-outline-variant py-1.5">4</span>
+</div>
+<!-- Color dots legend -->
+<div class="flex items-center justify-center gap-4 pt-2 border-t border-surface-container font-label-caps text-label-caps text-on-surface-variant">
+<span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-primary-container"></span> Académico</span>
+<span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-secondary-container"></span> Deportivo/Club</span>
+<span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-tertiary-container"></span> Cultura/DDHH</span>
+</div>
+</div>
+</div>
+<!-- Day Header & Count Banner -->
+<div class="px-gutter-mobile pt-space-sm pb-space-xs flex items-center justify-between">
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[20px]">event</span>
+<h2 class="font-headline-sm text-headline-sm text-primary font-bold">Viernes, 18 de Abril</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant ml-6">3 eventos programados en Beauchef y JGM</span>
+</div>
+<span class="px-2.5 py-1 rounded-full bg-surface-container font-label-caps text-label-caps font-semibold text-primary">
+      Día actual
+    </span>
+</div>
+<!-- Chronological Timeline Events Stream -->
+<div class="px-gutter-mobile py-space-sm flex flex-col gap-space-md relative">
+<!-- Timeline Vertical Rule Line -->
+<div class="absolute left-9 top-6 bottom-6 w-0.5 bg-surface-container-high rounded-full pointer-events-none"></div>
+<!-- Event 1: Futsal (Sports, Free, Registered) -->
+<div class="flex gap-3 relative group">
+<!-- Time Slot Indicator -->
+<div class="flex flex-col items-center flex-shrink-0 w-12 pt-1 z-10">
+<span class="font-label-md text-label-md font-bold text-primary">10:00</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">12:30</span>
+<div class="w-4 h-4 rounded-full bg-secondary-container ring-4 ring-surface flex items-center justify-center mt-2 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-surface"></span>
+</div>
+</div>
+<!-- Card Container -->
+<div class="flex-1 bg-surface-container-lowest rounded-2xl p-space-md shadow-sm transition-all hover:shadow-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-caps text-label-caps font-bold text-on-surface">JGM</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high font-label-caps text-label-caps text-secondary font-bold">Deportes</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-label-caps text-label-caps text-on-surface-variant">Presencial</span>
+</div>
+<button aria-label="Guardado" class="bookmark-btn text-secondary-container hover:scale-110 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">bookmark</span>
+</button>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug pt-0.5">
+          Torneo Interfacultades de Futsal 2025: Fase de Grupos
+        </h3>
+<div class="flex flex-col gap-1 text-on-surface-variant font-body-sm text-body-sm pt-1">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">sports_soccer</span>
+<span class="">Cancha Techada 1, Polideportivo JGM</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">group</span>
+<span class="">Organiza: Dirección de Deportes UChile</span>
+</div>
+</div>
+<!-- RSVP Status Pill & Action -->
+<div class="mt-2 pt-2 bg-surface-container-low rounded-xl px-3 py-2 flex items-center justify-between">
+<div class="flex items-center gap-1.5 text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-md text-label-md font-bold">Inscrito como Asistente</span>
+</div>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary hover:bg-primary hover:text-on-primary font-label-caps text-label-caps font-bold transition-colors shadow-xs">
+            Ver entrada QR
+          </button>
+</div>
+</div>
+</div>
+<!-- Event 2: ROS Robotics Workshop (Beauchef, Tech, Full capacity) -->
+<div class="flex gap-3 relative group">
+<!-- Time Slot Indicator -->
+<div class="flex flex-col items-center flex-shrink-0 w-12 pt-1 z-10">
+<span class="font-label-md text-label-md font-bold text-primary">14:30</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">16:30</span>
+<div class="w-4 h-4 rounded-full bg-primary-container ring-4 ring-surface flex items-center justify-center mt-2 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-surface"></span>
+</div>
+</div>
+<!-- Card Container -->
+<div class="flex-1 bg-surface-container-lowest rounded-2xl p-space-md shadow-sm transition-all hover:shadow-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-caps text-label-caps font-bold text-on-surface">FCFM</span>
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed-dim font-label-caps text-label-caps text-on-primary-fixed font-bold">Académico</span>
+<span class="px-2 py-0.5 rounded-full bg-error-container text-on-error-container font-label-caps text-label-caps font-bold">Cupos agotados</span>
+</div>
+<button aria-label="Recordar evento" class="bookmark-btn text-on-surface-variant hover:text-secondary-container hover:scale-110 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug pt-0.5">
+          Taller Introductorio a ROS y Control de Drones Autónomos
+        </h3>
+<!-- Speaker & Place -->
+<div class="flex items-center gap-2 pt-1">
+<img class="w-6 h-6 rounded-full object-cover" data-alt="Close up photograph of a smiling female engineering instructor in a high tech university robotics laboratory, natural indoor ambient light, high detail" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1rxEk2wx1kU7LeBPIDMpOfywL3yurIuHCJRgTlvS3lZX8R3hTm2AUFecbVvOElQJf7KBvofSDKAIoQ9eyySvfB4qH6gddpKbphBFpM0k1LtJmXBScZUtrk0jB0_MfFLorQx-QbwgwPDmmkrWGfq4UDOR5Bs8T8z0fCubLaps56uAIKvSI6vxYzwXBipfLg_TAcNnyGTRYG5kGT-yOy1dw5cbqAOTU40rEtcXf8_q-jSTRs_gR6VAyHA">
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Relatora: Dra. Camila Vergara · Lab DII</span>
+</div>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px]">location_on</span>
+<span class="truncate">Beauchef 851, Torre Poniente Piso 3</span>
+</div>
+<div class="mt-2 flex items-center justify-between gap-2 pt-1">
+<span class="font-label-caps text-label-caps text-error font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">notifications_active</span>
+            Lista de espera activa (4 personas)
+          </span>
+<button class="px-3 py-1.5 rounded-xl bg-surface-container text-primary font-label-md text-label-md font-bold hover:bg-surface-container-high transition-colors">
+            Sumarme
+          </button>
+</div>
+</div>
+</div>
+<!-- Event 3: Cine Debate Universitario (Culture, Upcoming) -->
+<div class="flex gap-3 relative group">
+<!-- Time Slot Indicator -->
+<div class="flex flex-col items-center flex-shrink-0 w-12 pt-1 z-10">
+<span class="font-label-md text-label-md font-bold text-primary">18:00</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant">19:30</span>
+<div class="w-4 h-4 rounded-full bg-tertiary-container ring-4 ring-surface flex items-center justify-center mt-2 shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-surface"></span>
+</div>
+</div>
+<!-- Card Container -->
+<div class="flex-1 bg-surface-container-lowest rounded-2xl p-space-md shadow-sm transition-all hover:shadow-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between gap-2">
+<div class="flex flex-wrap items-center gap-1.5">
+<span class="px-2 py-0.5 rounded-full bg-surface-container font-label-caps text-label-caps font-bold text-on-surface">JGM</span>
+<span class="px-2 py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-caps text-label-caps font-bold">Cine &amp; DDHH</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low font-label-caps text-label-caps text-on-surface-variant">Entrada Libre</span>
+</div>
+<button aria-label="Guardar" class="bookmark-btn text-on-surface-variant hover:text-secondary-container hover:scale-110 active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-[20px]">bookmark_border</span>
+</button>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold leading-snug pt-0.5">
+          Cine Debate: Memoria Universitaria y Archivos Visuales
+        </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2">
+          Proyección de piezas documentales inéditas del cineclub universitario de los años 70 seguido de conversatorio con realizadores.
+        </p>
+<div class="flex items-center gap-1.5 text-on-surface-variant font-body-sm text-body-sm pt-1">
+<span class="material-symbols-outlined text-[16px]">mic</span>
+<span class="truncate">Sala Master JGM · Cine Club UChile</span>
+</div>
+<!-- Action Row -->
+<div class="mt-2 pt-2 flex items-center justify-between gap-2">
+<div class="flex items-center gap-1 text-on-surface-variant font-label-caps text-label-caps">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">star</span>
+<span class="">4.9 (42 reseñas)</span>
+</div>
+<div class="flex items-center gap-1.5">
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary hover:bg-surface-container-high active:scale-90 transition-all" title="Agregar a Google Calendar">
+<span class="material-symbols-outlined text-[18px]">calendar_add_on</span>
+</button>
+<button class="px-3.5 py-1.5 rounded-xl bg-primary-container text-on-primary font-label-md text-label-md font-bold shadow-xs active:scale-95 transition-all">
+              Ver detalle
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sync Calendar Feature Card (UChile Institutional Delight Moment) -->
+<div class="px-gutter-mobile py-space-md">
+<div class="bg-gradient-to-br from-surface-container-high via-surface-container to-surface-container-lowest rounded-2xl p-space-md shadow-sm relative overflow-hidden">
+<!-- Decorative Backdrop Element -->
+<div class="absolute right-0 top-0 -mr-6 -mt-6 w-28 h-28 rounded-full bg-primary-fixed-dim/30 pointer-events-none"></div>
+<div class="flex items-start gap-3 relative z-10">
+<div class="w-10 h-10 rounded-xl bg-primary-container text-on-primary flex items-center justify-center flex-shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[24px]">sync</span>
+</div>
+<div class="flex flex-col flex-1">
+<h4 class="font-headline-sm text-headline-sm text-primary font-bold">Sincroniza tu cuenta UChile</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+            Vincula tus ramos e inscripciones con Google Calendar o descarga el feed .ics a tu teléfono.
+          </p>
+<div class="flex flex-wrap items-center gap-2 mt-3">
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-primary-container text-on-primary font-label-md text-label-md font-bold shadow-xs active:scale-95 transition-all" id="sync-gcal-btn">
+<span class="material-symbols-outlined text-[16px]">sync_alt</span>
+              Conectar @uchile.cl
+            </button>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md font-semibold hover:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-[16px]">file_download</span>
+              Exportar .ics
+            </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Floating Action Bar for Filter / Campus Selection -->
+<div class="sticky bottom-3 px-gutter-mobile w-full z-20 mt-space-sm mb-space-sm">
+<div class="bg-primary/95 backdrop-blur-md rounded-2xl px-4 py-3 shadow-xl flex items-center justify-between text-on-primary">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-md text-label-md font-semibold">Campus activos: Todos</span>
+</div>
+<button class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-on-primary font-label-md text-label-md font-bold transition-all active:scale-95" id="open-filter-modal">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+<span class="">Filtrar</span>
+</button>
+</div>
+</div>
+<!-- Mini Toast Notification Component (Triggered by micro-interactions) -->
+<div class="fixed bottom-20 left-1/2 -translate-x-1/2 px-4 py-2.5 rounded-full bg-inverse-surface text-inverse-on-surface font-label-md text-label-md shadow-xl flex items-center gap-2 opacity-0 pointer-events-none transition-all duration-300 z-50" id="toast">
+<span class="material-symbols-outlined text-[18px] text-secondary-container">check_circle</span>
+<span id="toast-message" class="">Acción completada</span>
+</div>
+</div>
+<script>
+  (function initCalendar() {
+    // Week vs Month toggler logic
+    const toggleWeek = document.getElementById('toggle-week');
+    const toggleMonth = document.getElementById('toggle-month');
+    const weekView = document.getElementById('week-view');
+    const monthView = document.getElementById('month-view');
+
+    toggleWeek?.addEventListener('click', () => {
+      toggleWeek.className = 'px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-caps text-label-caps transition-all';
+      toggleMonth.className = 'px-2.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all';
+      weekView.classList.remove('hidden');
+      monthView.classList.add('hidden');
+    });
+
+    toggleMonth?.addEventListener('click', () => {
+      toggleMonth.className = 'px-2.5 py-1 rounded-full bg-primary-container text-on-primary font-label-caps text-label-caps transition-all';
+      toggleWeek.className = 'px-2.5 py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-caps text-label-caps transition-all';
+      weekView.classList.add('hidden');
+      monthView.classList.remove('hidden');
+      monthView.classList.add('flex');
+    });
+
+    // Toast helper
+    const toast = document.getElementById('toast');
+    const toastMessage = document.getElementById('toast-message');
+    function showToast(msg) {
+      if (!toast || !toastMessage) return;
+      toastMessage.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      toast.classList.add('opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('opacity-100');
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2400);
+    }
+
+    // Bookmark toggles
+    document.querySelectorAll('.bookmark-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const icon = btn.querySelector('.material-symbols-outlined');
+        if (!icon) return;
+        const isFilled = icon.getAttribute('style')?.includes("FILL' 1") || icon.textContent === 'bookmark';
+        if (isFilled) {
+          icon.textContent = 'bookmark_border';
+          icon.removeAttribute('style');
+          btn.classList.remove('text-secondary-container');
+          btn.classList.add('text-on-surface-variant');
+          showToast('Eliminado de tus guardados');
+        } else {
+          icon.textContent = 'bookmark';
+          icon.setAttribute('style', "font-variation-settings: 'FILL' 1;");
+          btn.classList.add('text-secondary-container');
+          btn.classList.remove('text-on-surface-variant');
+          showToast('Guardado en tus eventos');
+        }
+      });
+    });
+
+    // Calendar sync action
+    document.getElementById('sync-gcal-btn')?.addEventListener('click', () => {
+      showToast('Sincronizando con cuenta @uchile.cl...');
+    });
+
+    // Interactive Day Cards selection in Week view
+    const dayCards = document.querySelectorAll('.day-card');
+    dayCards.forEach(card => {
+      card.addEventListener('click', () => {
+        dayCards.forEach(c => {
+          c.className = 'day-card flex flex-col items-center justify-between py-2 rounded-xl bg-surface-container-lowest shadow-sm hover:bg-surface-container transition-all';
+          const topSpan = c.querySelector('span:first-child');
+          const midSpan = c.querySelector('span:nth-child(2)');
+          if (topSpan) topSpan.className = 'font-label-caps text-label-caps text-on-surface-variant uppercase';
+          if (midSpan) midSpan.className = 'font-headline-sm text-headline-sm text-on-surface font-bold my-0.5';
+        });
+        card.className = 'day-card flex flex-col items-center justify-between py-2 rounded-xl bg-primary-container text-on-primary shadow-md scale-105 ring-2 ring-primary-container ring-offset-2 ring-offset-surface transition-all';
+        const top = card.querySelector('span:first-child');
+        const mid = card.querySelector('span:nth-child(2)');
+        if (top) top.className = 'font-label-caps text-label-caps text-on-primary font-bold uppercase';
+        if (mid) mid.className = 'font-headline-sm text-headline-sm text-on-primary font-bold my-0.5';
+      });
+    });
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/85 backdrop-blur-xl shadow-[0_-1px_8px_rgba(0,0,0,0.05)]" data-active-classes="text-primary-container font-bold [&amp;_span.material-symbols-outlined]:scale-110"><div class="h-16 px-space-xs flex items-center justify-around"><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="inicio" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">home</span><span class="font-label-caps text-label-caps tracking-tight">Inicio</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="explorar" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">search</span><span class="font-label-caps text-label-caps tracking-tight">Explorar</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="calendario" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">calendar_month</span><span class="font-label-caps text-label-caps tracking-tight">Calendario</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="guardados" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">bookmark</span><span class="font-label-caps text-label-caps tracking-tight">Guardados</span></a><a class="flex flex-col items-center justify-center flex-1 h-full min-h-[44px] min-w-[44px] gap-0.5 text-on-surface-variant transition-all hover:text-primary" data-path="panel-org" href="#"><span class="material-symbols-outlined text-[22px] transition-transform">corporate_fare</span><span class="font-label-caps text-label-caps tracking-tight">Panel Org</span></a></div></nav>
+
+
+
+<script src="../_proto/router.js"></script>
+</body></html>

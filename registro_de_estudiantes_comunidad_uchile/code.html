@@ -1,0 +1,504 @@
+<!DOCTYPE html><html lang="es" style="min-height: 100%; height: auto; overflow-y: auto; opacity: 0;" data-stitch-orig-opacity="1"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "surface-bright": "#faf8ff", "primary-fixed": "#dbe1ff", "tertiary-container": "#003554", "outline-variant": "#c4c6d3", "background": "#faf8ff", "secondary-fixed": "#ffdcc3", "on-surface": "#131b2e", "on-tertiary-fixed-variant": "#004b73", "surface-container-high": "#e2e7ff", "on-secondary-container": "#663500", "on-primary-fixed-variant": "#224290", "surface-tint": "#3d5aa9", "surface-container": "#eaedff", "surface-dim": "#d2d9f4", "tertiary-fixed-dim": "#93ccff", "error": "#ba1a1a", "on-error": "#ffffff", "inverse-on-surface": "#eef0ff", "on-primary-fixed": "#00174b", "tertiary-fixed": "#cce5ff", "on-primary-container": "#7b96ea", "on-tertiary-container": "#3fa1e6", "primary-fixed-dim": "#b4c5ff", "secondary": "#904d00", "secondary-fixed-dim": "#ffb77d", "on-secondary": "#ffffff", "inverse-surface": "#283044", "surface-container-highest": "#dae2fd", "outline": "#747682", "surface": "#faf8ff", "secondary-container": "#fe932c", "on-primary": "#ffffff", "on-surface-variant": "#444651", "primary-container": "#002b7a", "inverse-primary": "#b4c5ff", "error-container": "#ffdad6", "on-background": "#131b2e", "primary": "#00184d", "on-secondary-fixed": "#2f1500", "on-secondary-fixed-variant": "#6e3900", "surface-container-lowest": "#ffffff", "tertiary": "#001f34", "surface-container-low": "#f2f3ff", "surface-variant": "#dae2fd", "on-tertiary": "#ffffff", "on-tertiary-fixed": "#001d31", "on-error-container": "#93000a" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-sm": "0.5rem", "space-xs": "0.25rem", "gutter-mobile": "1rem", "space-md": "1rem", "margin": "2rem", "margin-mobile": "1rem", "space-lg": "1.5rem", "space-xl": "2.5rem", "gutter": "1.5rem" }, "fontFamily": { "display-hero-mobile": ["Plus Jakarta Sans"], "label-md": ["Plus Jakarta Sans"], "headline-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Plus Jakarta Sans"], "display-hero": ["Plus Jakarta Sans"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-sm": ["Plus Jakarta Sans"], "body-md": ["Plus Jakarta Sans"], "label-caps": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"], "headline-lg": ["Plus Jakarta Sans"] }, "fontSize": { "display-hero-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "800" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "-0.01em", "fontWeight": "700" }], "headline-lg-mobile": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.015em", "fontWeight": "700" }], "display-hero": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.025em", "fontWeight": "800" }], "body-lg": ["16px", { "lineHeight": "24px", "fontWeight": "400" }], "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "20px", "fontWeight": "400" }], "label-caps": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "700" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.02em", "fontWeight": "700" }] } } } }</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen" style="min-height: 100%; height: auto; overflow-y: auto;"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-gutter-mobile flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Volver" class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface hover:bg-surface-container active:scale-95 transition-all" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><div class="flex items-center gap-space-sm pl-space-xs"><div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary flex items-center justify-center shadow-sm"><span class="material-symbols-outlined text-[20px]">account_balance</span></div><div class="flex flex-col"><span class="font-label-caps text-label-caps text-secondary uppercase leading-none">Universidad de Chile</span><span class="font-headline-sm text-headline-sm text-primary tracking-tight leading-tight">Comunidad UChile</span></div></div></div><div class="flex items-center gap-space-xs"><a class="w-11 h-11 flex items-center justify-center rounded-full text-on-surface-variant hover:text-primary hover:bg-surface-container active:scale-95 transition-all" data-path="soporte-cuenta" href="#" title="Centro de Ayuda"><span class="material-symbols-outlined text-[22px]">help_outline</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface flex-1"><div class="flex flex-col w-full pb-safe">
+<!-- Top Ambient Banner & Campus Illustration -->
+<div class="relative w-full overflow-hidden bg-primary px-gutter-mobile pt-space-lg pb-space-xl text-on-primary">
+<div class="absolute -right-12 -top-12 w-48 h-48 rounded-full bg-on-primary-container/20 blur-2xl pointer-events-none"></div>
+<div class="absolute -left-10 bottom-0 w-36 h-36 rounded-full bg-secondary-container/15 blur-xl pointer-events-none"></div>
+<div class="relative z-10 flex flex-col items-center text-center">
+<!-- Badge icon with warm glow -->
+<div class="w-16 h-16 rounded-2xl bg-surface-container-lowest/15 backdrop-blur-md flex items-center justify-center text-secondary-fixed shadow-md mb-space-sm transform transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[34px]" style="font-variation-settings: 'FILL' 1;">school</span>
+</div>
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-surface-container-lowest/10 backdrop-blur-md mb-space-xs">
+<span class="material-symbols-outlined text-secondary-fixed text-[14px]">verified</span>
+<span class="font-label-caps text-label-caps text-secondary-fixed tracking-wider uppercase">Portal Oficial Estudiantil</span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-primary mt-space-xs">
+        Registro de Estudiante
+      </h1>
+<p class="font-body-md text-body-md text-primary-fixed mt-space-xs max-w-sm">
+        Únete con tu correo institucional @uchile.cl para descubrir, guardar y calificar eventos en tus campus.
+      </p>
+</div>
+</div>
+<!-- Main Content Wrap with overlap curve -->
+<div class="px-gutter-mobile -mt-space-md z-20 flex flex-col gap-space-md pb-space-xl pb-16">
+<!-- TUI Institutional Validation Banner -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">badge</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-lg text-label-lg text-primary">Acceso con TUI Digital</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+          Tu cuenta te otorgará perfil de <span class="font-label-md text-label-md text-primary">Estudiante activo</span> para inscribirte y validar asistencia con tu pase universitario oficial.
+        </p>
+</div>
+</div>
+<!-- Registration Form Card -->
+<form class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md" id="studentRegistrationForm" novalidate="" onsubmit="event.preventDefault(); handleRegistrationSubmit();">
+<!-- Full Name Field -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="fullName">
+<span class="">Nombre y Apellidos completos</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Requerido</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">person_outline</span>
+<input class="w-full h-11 pl-10 pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#002b7a] transition-all" id="fullName" name="fullName" oninput="validateName(this)" placeholder="Sofía Valenzuela Morales" required="" type="text">
+<span class="material-symbols-outlined absolute right-3 text-secondary hidden text-[20px]" id="nameCheck">check_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-error hidden" id="nameFeedback">Por favor ingresa tu nombre y al menos un apellido.</p>
+</div>
+<!-- Institutional Email Field with domain quick-chips -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="institutionalEmail">
+<span class="">Correo institucional</span>
+<span class="font-label-caps text-label-caps text-secondary uppercase font-semibold">@uchile.cl</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">alternate_email</span>
+<input class="w-full h-11 pl-10 pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#002b7a] transition-all" id="institutionalEmail" name="institutionalEmail" oninput="validateEmail(this.value)" placeholder="nombre.apellido@ug.uchile.cl" required="" type="email">
+<span class="material-symbols-outlined absolute right-3 text-secondary hidden text-[20px]" id="emailCheck">check_circle</span>
+</div>
+<!-- Smart domain pill autocomplete -->
+<div class="flex items-center gap-space-xs pt-1 overflow-x-auto pb-1">
+<span class="font-body-sm text-body-sm text-on-surface-variant shrink-0">Sugerir:</span>
+<button class="px-space-sm py-1 rounded-full bg-surface-container hover:bg-primary-fixed text-primary font-label-md text-label-md transition-colors shrink-0" onclick="appendDomain('@ug.uchile.cl')" type="button">
+            + @ug.uchile.cl
+          </button>
+<button class="px-space-sm py-1 rounded-full bg-surface-container hover:bg-primary-fixed text-primary font-label-md text-label-md transition-colors shrink-0" onclick="appendDomain('@uchile.cl')" type="button">
+            + @uchile.cl
+          </button>
+</div>
+<p class="font-body-sm text-body-sm text-error hidden" id="emailFeedback">Ingresa un correo institucional válido (@uchile.cl o @ug.uchile.cl).</p>
+</div>
+<!-- Campus / Faculty Selector -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="facultySelect">
+<span class="">Campus / Facultad</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Opcional</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">domain</span>
+<select class="w-full h-11 pl-10 pr-10 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md appearance-none focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#002b7a] transition-all cursor-pointer" id="facultySelect" name="facultySelect">
+<option selected="" value="">Selecciona tu facultad o campus principal...</option>
+<option value="FCFM - Beauchef">FCFM - Campus Beauchef (Ingeniería y Ciencias)</option>
+<option value="Campus Juan Gómez Millas (JGM)">Campus Juan Gómez Millas (Filosofía, Ciencias, Artes, ICEI)</option>
+<option value="FEN - Diagonal Paraguay">FEN - Facultad de Economía y Negocios</option>
+<option value="Campus Norte (Medicina/Odonto/Química)">Campus Norte (Medicina, Odontología, Cs. Químicas)</option>
+<option value="Campus Andrés Bello (Derecho/FAU)">Campus Andrés Bello (Derecho, FAU, Asuntos Públicos)</option>
+<option value="Campus Sur (Antumapu)">Campus Sur - Antumapu (Cs. Agronómicas, Forestales, Vet)</option>
+<option value="Otra dependencia institucional">Otra unidad académica o programa interdisciplinario</option>
+</select>
+<span class="material-symbols-outlined absolute right-3 text-on-surface-variant text-[20px] pointer-events-none">expand_more</span>
+</div>
+</div>
+<!-- Password Field with Security Bars -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="password">
+<span class="">Contraseña de acceso</span>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase" id="pwdStrengthLabel">Mínimo 8 caract.</span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">lock</span>
+<input class="w-full h-11 pl-10 pr-11 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#002b7a] transition-all" id="password" name="password" oninput="checkPasswordStrength(this.value)" placeholder="Crea una contraseña segura" required="" type="password">
+<button aria-label="Mostrar u ocultar contraseña" class="absolute right-2 w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" onclick="togglePasswordVisibility('password', this)" type="button">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</div>
+<!-- Visual Password Strength Meter -->
+<div class="grid grid-cols-4 gap-1.5 pt-1.5">
+<div class="h-1.5 rounded-full bg-surface-dim transition-all duration-300" id="bar1"></div>
+<div class="h-1.5 rounded-full bg-surface-dim transition-all duration-300" id="bar2"></div>
+<div class="h-1.5 rounded-full bg-surface-dim transition-all duration-300" id="bar3"></div>
+<div class="h-1.5 rounded-full bg-surface-dim transition-all duration-300" id="bar4"></div>
+</div>
+<!-- Real-time Rules List -->
+<div class="flex flex-wrap items-center gap-x-space-md gap-y-1 pt-1 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1 transition-colors" id="ruleLength">
+<span class="material-symbols-outlined text-[15px]">circle</span> 8+ caracteres
+          </span>
+<span class="flex items-center gap-1 transition-colors" id="ruleNumber">
+<span class="material-symbols-outlined text-[15px]">circle</span> Al menos un número
+          </span>
+<span class="flex items-center gap-1 transition-colors" id="ruleCase">
+<span class="material-symbols-outlined text-[15px]">circle</span> Mayúscula
+          </span>
+</div>
+</div>
+<!-- Confirm Password Field -->
+<div class="flex flex-col gap-space-xs">
+<label class="font-label-lg text-label-lg text-on-surface flex items-center justify-between" for="confirmPassword">
+<span class="">Confirmar Contraseña</span>
+<span class="font-label-md text-label-md text-on-surface-variant" id="matchFeedback"></span>
+</label>
+<div class="relative flex items-center">
+<span class="material-symbols-outlined absolute left-3 text-on-surface-variant text-[20px] pointer-events-none">lock_reset</span>
+<input class="w-full h-11 pl-10 pr-11 rounded-lg bg-surface-container text-on-surface font-body-md text-body-md placeholder:text-on-surface-variant/60 focus:bg-surface-container-lowest focus:outline-none focus:shadow-[0_0_0_2px_#002b7a] transition-all" id="confirmPassword" name="confirmPassword" oninput="checkPasswordMatch()" placeholder="Repite tu contraseña" required="" type="password">
+<button aria-label="Mostrar u ocultar contraseña de confirmación" class="absolute right-2 w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" onclick="togglePasswordVisibility('confirmPassword', this)" type="button">
+<span class="material-symbols-outlined text-[20px]">visibility</span>
+</button>
+</div>
+</div>
+<!-- Campus Visual Card / Micro Delight -->
+<div class="rounded-xl overflow-hidden bg-surface-container-high relative flex items-center p-space-sm gap-space-sm">
+<img class="w-16 h-16 rounded-lg object-cover shrink-0" data-alt="Historical neoclassical facade of Casa Central Universidad de Chile under a vibrant blue clear sky, energetic students walking through the sunlit marble courtyard with blue backpack accents, warm editorial photography style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMafGMnjqI2JFyToF438pZCuuBOx80pr6F2_1EWIFwMcZp8NEGS8uEW9tMjN1E5x_Amb1PY4NRyemAIvNUM2OysnkQ8nMTT9uDCuXYusmpkfo_jIFbgPOdE3ZHJrlDtxcBQwidwLjLuYtrCejiKUub25ucWv05riNZhyVpgQzm2QPxz17KZ5JjHzVu7iwkX-CxMCMoCDXy9Calik1NKEXvADBpk9gvHPylrQv8zAyIA43Ti6cMeLHIGQ">
+<div class="flex flex-col min-w-0 pr-space-xs">
+<span class="font-label-caps text-label-caps text-secondary font-bold uppercase">Comunidad Multicampus</span>
+<span class="font-headline-sm text-headline-sm text-primary truncate">+140 Eventos este mes</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Coloquios, tocatas, ferias laborales y debates.</p>
+</div>
+</div>
+<!-- Terms & Newsletter Checkboxes -->
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<!-- Terms checkbox -->
+<label class="flex items-start gap-space-sm cursor-pointer select-none">
+<div class="relative flex items-center justify-center pt-0.5">
+<input class="peer sr-only" id="termsAccepted" required="" type="checkbox">
+<div class="w-5 h-5 rounded bg-surface-container peer-checked:bg-primary transition-all flex items-center justify-center text-on-primary">
+<span class="material-symbols-outlined text-[16px] scale-0 peer-checked:scale-100 transition-transform">check</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface leading-tight">
+            He leído y acepto los <a class="text-primary font-label-md text-label-md underline hover:text-surface-tint" href="#">Términos de Uso</a> y la <a class="text-primary font-label-md text-label-md underline hover:text-surface-tint" href="#">Política de Privacidad</a> de la Comunidad UChile.
+          </span>
+</label>
+<!-- Newsletter checkbox -->
+<label class="flex items-start gap-space-sm cursor-pointer select-none">
+<div class="relative flex items-center justify-center pt-0.5">
+<input checked="" class="peer sr-only" id="newsletterOptIn" type="checkbox">
+<div class="w-5 h-5 rounded bg-surface-container peer-checked:bg-secondary transition-all flex items-center justify-center text-on-secondary">
+<span class="material-symbols-outlined text-[16px] scale-0 peer-checked:scale-100 transition-transform">check</span>
+</div>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant leading-tight">
+            Deseo recibir el boletín semanal de eventos destacados y actividades en mi campus de pertenencia.
+          </span>
+</label>
+</div>
+<!-- Submit CTA Button -->
+<button class="w-full h-12 mt-space-xs rounded-xl bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-md hover:bg-primary-container active:scale-[0.98] transition-all" id="submitBtn" type="submit">
+<span class="">Crear Cuenta de Estudiante</span>
+<span class="material-symbols-outlined text-[20px]">arrow_forward</span>
+</button>
+<!-- Quick Demo Trigger for evaluation -->
+<button class="w-full py-1 text-center font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center gap-1" onclick="triggerDemoModal()" type="button">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+<span class="">Ver vista previa del modal de confirmación</span>
+</button>
+</form>
+<!-- Bottom Login Switch Link -->
+<div class="text-center py-space-sm">
+<p class="font-body-md text-body-md text-on-surface-variant">
+        ¿Ya tienes una cuenta activa? 
+        <a class="font-label-lg text-label-lg text-primary hover:underline ml-1 inline-flex items-center gap-0.5" href="#">
+<span class="">Inicia sesión aquí</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</p>
+</div>
+</div>
+<!-- SUCCESS CONFIRMATION MODAL -->
+<div aria-labelledby="successTitle" aria-modal="true" class="fixed inset-0 z-50 flex items-center justify-center p-gutter-mobile bg-on-surface/60 backdrop-blur-sm opacity-0 pointer-events-none transition-all duration-300" id="successModal" role="dialog">
+<div class="relative w-full max-w-sm rounded-2xl bg-surface-container-lowest p-space-lg shadow-xl flex flex-col items-center text-center transform scale-95 transition-transform duration-300 overflow-hidden" id="modalCard">
+<!-- Top festive decor ribbon -->
+<div class="absolute -top-12 left-1/2 -translate-x-1/2 w-40 h-24 bg-primary/10 rounded-full blur-xl pointer-events-none"></div>
+<!-- Big Green University Success Seal -->
+<div class="w-20 h-20 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary mb-space-md shadow-md animate-bounce">
+<span class="material-symbols-outlined text-[44px]" style="font-variation-settings: 'FILL' 1;">verified</span>
+</div>
+<div class="inline-flex items-center gap-1 px-space-sm py-0.5 rounded-full bg-surface-container-high text-primary font-label-caps text-label-caps uppercase mb-space-xs">
+<span class="">¡Registro exitoso!</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-primary" id="successTitle">
+        ¡Bienvenido/a a Comunidad UChile!
+      </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+        Hemos enviado un enlace de confirmación a tu correo institucional:
+      </p>
+<div class="w-full bg-surface-container rounded-lg p-space-sm my-space-sm text-left flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-primary-container text-on-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">mark_email_read</span>
+</div>
+<div class="min-w-0 flex-1">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Destino</span>
+<p class="font-label-md text-label-md text-primary truncate font-bold" id="modalEmailDisplay">estudiante@ug.uchile.cl</p>
+</div>
+</div>
+<!-- Assigned Student Profile Card -->
+<div class="w-full rounded-xl bg-surface-container-low p-space-sm mb-space-md flex flex-col gap-1.5 text-left">
+<div class="flex items-center justify-between">
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Perfil Asignado</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-caps text-label-caps uppercase font-bold">Activo</span>
+</div>
+<div class="flex items-center gap-space-sm pt-1">
+<div class="w-7 h-7 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-xs">
+<span id="modalInitialDisplay" class="">S</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-primary truncate" id="modalNameDisplay">Sofía Valenzuela Morales</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate" id="modalFacultyDisplay">FCFM - Beauchef</span>
+</div>
+</div>
+</div>
+<!-- Action CTA Buttons -->
+<div class="w-full flex flex-col gap-space-xs">
+<button class="w-full h-11 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg shadow-sm hover:bg-primary-container active:scale-[0.98] transition-all flex items-center justify-center gap-space-xs" onclick="closeSuccessModal()" type="button">
+<span class="">Ir a la Portada de Eventos</span>
+<span class="material-symbols-outlined text-[18px]">celebration</span>
+</button>
+<button class="w-full h-9 rounded-lg text-on-surface-variant font-label-md text-label-md hover:text-primary transition-colors" onclick="closeSuccessModal()" type="button">
+          Cerrar y volver al registro
+        </button>
+</div>
+</div>
+</div>
+</div>
+<!-- Client-side Interactive Logic -->
+<script>
+  function validateName(input) {
+    const val = input.value.trim();
+    const checkIcon = document.getElementById('nameCheck');
+    const feedback = document.getElementById('nameFeedback');
+    const words = val.split(/\s+/).filter(w => w.length > 1);
+
+    if (words.length >= 2) {
+      checkIcon.classList.remove('hidden');
+      feedback.classList.add('hidden');
+      return true;
+    } else {
+      checkIcon.classList.add('hidden');
+      return false;
+    }
+  }
+
+  function validateEmail(val) {
+    const cleanVal = val.trim().toLowerCase();
+    const checkIcon = document.getElementById('emailCheck');
+    const feedback = document.getElementById('emailFeedback');
+    const isValid = cleanVal.includes('@') && (cleanVal.endsWith('@uchile.cl') || cleanVal.endsWith('@ug.uchile.cl') || cleanVal.includes('.uchile.cl'));
+
+    if (isValid) {
+      checkIcon.classList.remove('hidden');
+      feedback.classList.add('hidden');
+      return true;
+    } else {
+      checkIcon.classList.add('hidden');
+      return false;
+    }
+  }
+
+  function appendDomain(domain) {
+    const emailInput = document.getElementById('institutionalEmail');
+    let currentVal = emailInput.value.trim();
+    if (!currentVal) {
+      emailInput.value = 'usuario' + domain;
+    } else if (currentVal.includes('@')) {
+      emailInput.value = currentVal.split('@')[0] + domain;
+    } else {
+      emailInput.value = currentVal + domain;
+    }
+    validateEmail(emailInput.value);
+    emailInput.focus();
+  }
+
+  function checkPasswordStrength(val) {
+    const ruleLength = document.getElementById('ruleLength');
+    const ruleNumber = document.getElementById('ruleNumber');
+    const ruleCase = document.getElementById('ruleCase');
+    const label = document.getElementById('pwdStrengthLabel');
+
+    const bar1 = document.getElementById('bar1');
+    const bar2 = document.getElementById('bar2');
+    const bar3 = document.getElementById('bar3');
+    const bar4 = document.getElementById('bar4');
+
+    const bars = [bar1, bar2, bar3, bar4];
+    bars.forEach(b => {
+      b.className = 'h-1.5 rounded-full bg-surface-dim transition-all duration-300';
+    });
+
+    const hasLength = val.length >= 8;
+    const hasNum = /\d/.test(val);
+    const hasUpper = /[A-Z]/.test(val);
+    const hasSpecial = /[^A-Za-z0-9]/.test(val);
+
+    updateRule(ruleLength, hasLength);
+    updateRule(ruleNumber, hasNum);
+    updateRule(ruleCase, hasUpper);
+
+    let score = 0;
+    if (hasLength) score++;
+    if (hasNum) score++;
+    if (hasUpper) score++;
+    if (hasSpecial) score++;
+
+    if (val.length === 0) {
+      label.textContent = 'Mínimo 8 caract.';
+      label.className = 'font-label-caps text-label-caps text-on-surface-variant uppercase';
+      return;
+    }
+
+    if (score <= 1) {
+      bar1.classList.remove('bg-surface-dim');
+      bar1.classList.add('bg-error');
+      label.textContent = 'Débil';
+      label.className = 'font-label-caps text-label-caps text-error uppercase font-bold';
+    } else if (score === 2) {
+      bar1.classList.remove('bg-surface-dim');
+      bar1.classList.add('bg-secondary-container');
+      bar2.classList.remove('bg-surface-dim');
+      bar2.classList.add('bg-secondary-container');
+      label.textContent = 'Media';
+      label.className = 'font-label-caps text-label-caps text-secondary uppercase font-bold';
+    } else if (score === 3) {
+      [bar1, bar2, bar3].forEach(b => {
+        b.classList.remove('bg-surface-dim');
+        b.classList.add('bg-on-primary-container');
+      });
+      label.textContent = 'Buena';
+      label.className = 'font-label-caps text-label-caps text-primary uppercase font-bold';
+    } else {
+      bars.forEach(b => {
+        b.classList.remove('bg-surface-dim');
+        b.classList.add('bg-secondary');
+      });
+      label.textContent = 'Excelente';
+      label.className = 'font-label-caps text-label-caps text-secondary uppercase font-bold';
+    }
+
+    checkPasswordMatch();
+  }
+
+  function updateRule(elem, passed) {
+    const icon = elem.querySelector('.material-symbols-outlined');
+    if (passed) {
+      elem.classList.remove('text-on-surface-variant');
+      elem.classList.add('text-secondary', 'font-semibold');
+      icon.textContent = 'check_circle';
+    } else {
+      elem.classList.remove('text-secondary', 'font-semibold');
+      elem.classList.add('text-on-surface-variant');
+      icon.textContent = 'circle';
+    }
+  }
+
+  function togglePasswordVisibility(fieldId, btn) {
+    const field = document.getElementById(fieldId);
+    const icon = btn.querySelector('.material-symbols-outlined');
+    if (field.type === 'password') {
+      field.type = 'text';
+      icon.textContent = 'visibility_off';
+    } else {
+      field.type = 'password';
+      icon.textContent = 'visibility';
+    }
+  }
+
+  function checkPasswordMatch() {
+    const p1 = document.getElementById('password').value;
+    const p2 = document.getElementById('confirmPassword').value;
+    const feedback = document.getElementById('matchFeedback');
+
+    if (!p2) {
+      feedback.textContent = '';
+      return false;
+    }
+
+    if (p1 === p2) {
+      feedback.textContent = 'Coinciden';
+      feedback.className = 'font-label-md text-label-md text-secondary font-semibold';
+      return true;
+    } else {
+      feedback.textContent = 'No coinciden';
+      feedback.className = 'font-label-md text-label-md text-error font-semibold';
+      return false;
+    }
+  }
+
+  function handleRegistrationSubmit() {
+    const nameInput = document.getElementById('fullName');
+    const emailInput = document.getElementById('institutionalEmail');
+    const pwdInput = document.getElementById('password');
+    const confirmInput = document.getElementById('confirmPassword');
+    const terms = document.getElementById('termsAccepted');
+    const faculty = document.getElementById('facultySelect');
+
+    const isNameValid = validateName(nameInput);
+    const isEmailValid = validateEmail(emailInput.value);
+    const isMatch = checkPasswordMatch();
+
+    if (!isNameValid) {
+      document.getElementById('nameFeedback').classList.remove('hidden');
+      nameInput.focus();
+      return;
+    }
+
+    if (!isEmailValid) {
+      document.getElementById('emailFeedback').classList.remove('hidden');
+      emailInput.focus();
+      return;
+    }
+
+    if (pwdInput.value.length < 8) {
+      pwdInput.focus();
+      return;
+    }
+
+    if (!isMatch) {
+      confirmInput.focus();
+      return;
+    }
+
+    if (!terms.checked) {
+      alert('Debes aceptar los Términos de Uso y la Política de Privacidad para continuar.');
+      terms.focus();
+      return;
+    }
+
+    // Populate modal with user data
+    document.getElementById('modalEmailDisplay').textContent = emailInput.value.trim();
+    document.getElementById('modalNameDisplay').textContent = nameInput.value.trim();
+    document.getElementById('modalInitialDisplay').textContent = nameInput.value.trim().charAt(0).toUpperCase();
+    document.getElementById('modalFacultyDisplay').textContent = faculty.value || 'Campus por asignar';
+
+    openSuccessModal();
+  }
+
+  function triggerDemoModal() {
+    document.getElementById('modalEmailDisplay').textContent = 'sofia.valenzuela@ug.uchile.cl';
+    document.getElementById('modalNameDisplay').textContent = 'Sofía Valenzuela Morales';
+    document.getElementById('modalInitialDisplay').textContent = 'S';
+    document.getElementById('modalFacultyDisplay').textContent = 'FCFM - Campus Beauchef';
+    openSuccessModal();
+  }
+
+  function openSuccessModal() {
+    const modal = document.getElementById('successModal');
+    const card = document.getElementById('modalCard');
+    modal.classList.remove('pointer-events-none', 'opacity-0');
+    modal.classList.add('opacity-100');
+    card.classList.remove('scale-95');
+    card.classList.add('scale-100');
+  }
+
+  function closeSuccessModal() {
+    const modal = document.getElementById('successModal');
+    const card = document.getElementById('modalCard');
+    card.classList.remove('scale-100');
+    card.classList.add('scale-95');
+    modal.classList.remove('opacity-100');
+    modal.classList.add('opacity-0', 'pointer-events-none');
+  }
+</script></main>
+
+
+
+<script src="../_proto/router.js"></script>
+</body></html>
